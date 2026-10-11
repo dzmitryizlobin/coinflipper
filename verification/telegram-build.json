@@ -1,7 +1,7 @@
 {
-  "builtAt": "2026-10-11T15:51:46.867Z",
-  "sourceSha256": "975d07f426b58a60c6d1e46a68519a77bb70d5a355927f7f91d2d35faf6bf800",
-  "htmlSha256": "0c318385d0ad4b71011c77528fef889389e8a5f88929c321a00d8abe6a1d7a17",
+  "builtAt": "2026-10-11T17:52:26.583Z",
+  "sourceSha256": "4fd83c47968b5ae47b0bb2f8d8e6785a0b4bd1508f301c6f1c6c9f15a1db279c",
+  "htmlSha256": "ffc4d761dabb18ed22196a650c9aa17f41f6e0e9005058557bd7e6c11481cac4",
   "output": "telegram/index.html",
   "launchUrl": "https://t.me/coins_flipper_bot?startapp",
   "config": {

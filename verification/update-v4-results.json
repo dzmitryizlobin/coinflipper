@@ -1,0 +1,133 @@
+{
+  "executedAt": "2026-10-11T17:52:35.770Z",
+  "tests": 9,
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "legacy-save-and-quest-migration",
+      "result": "pass",
+      "evidence": {
+        "balancesAndUnlocksPreserved": true,
+        "aboveNewCapWorkersRetained": true,
+        "partialAndCompletedQuestsMigrated": true
+      }
+    },
+    {
+      "name": "quest-rewards-durable-before-animation",
+      "result": "pass",
+      "evidence": [
+        "gems",
+        "tokens",
+        "cash",
+        "boost"
+      ]
+    },
+    {
+      "name": "daily-and-level-rewards-survive-close",
+      "result": "pass",
+      "evidence": {
+        "daily": true,
+        "levelDismissed": true
+      }
+    },
+    {
+      "name": "quest-skip-cooldown-and-unlocks",
+      "result": "pass",
+      "evidence": {
+        "initial": [
+          "heads",
+          "tap",
+          "flip"
+        ],
+        "blocked": true,
+        "list": 3,
+        "wait": 599998
+      }
+    },
+    {
+      "name": "temporary-workers-limit-persistence-expiry",
+      "result": "pass",
+      "evidence": {
+        "before": {
+          "gems": 110,
+          "hires": 3,
+          "workers": 7,
+          "goldHat": 24
+        },
+        "after": {
+          "workers": 4,
+          "hires": 0,
+          "released": true
+        }
+      }
+    },
+    {
+      "name": "temporary-workers-offline-expiry",
+      "result": "pass",
+      "evidence": {
+        "value": 1147.5,
+        "full": 459
+      }
+    },
+    {
+      "name": "merge-locks-max-tier-and-reload",
+      "result": "pass",
+      "evidence": {
+        "completed": {
+          "jobs": 2,
+          "locked": true,
+          "tiers": [
+            1,
+            1,
+            59,
+            59
+          ],
+          "merges": 2
+        },
+        "rebuild": {
+          "jobs": 0,
+          "coins": 4,
+          "merges": 2
+        }
+      }
+    },
+    {
+      "name": "standalone-worker-dialog-and-new-art",
+      "result": "pass",
+      "evidence": {
+        "ad": false,
+        "gem": true,
+        "floors": 10,
+        "props": 10,
+        "previews": [
+          106926,
+          118426,
+          124914,
+          123846,
+          112770,
+          147174,
+          115406,
+          136534,
+          109526,
+          107450
+        ],
+        "money": "$123",
+        "coin": "5¢"
+      }
+    },
+    {
+      "name": "legacy-telegram-cloud-namespace",
+      "result": "pass",
+      "evidence": {
+        "keys": [
+          "sn",
+          "s0",
+          "s0",
+          "sn"
+        ],
+        "saved": 43210
+      }
+    }
+  ]
+}

@@ -1,781 +1,925 @@
 {
   "source": "index.html",
-  "sha256": "975d07f426b58a60c6d1e46a68519a77bb70d5a355927f7f91d2d35faf6bf800",
-  "bytes": 190373,
-  "lines": 2506,
+  "sha256": "4fd83c47968b5ae47b0bb2f8d8e6785a0b4bd1508f301c6f1c6c9f15a1db279c",
+  "bytes": 248255,
+  "lines": 3099,
   "inlineScripts": 2,
   "functions": [
     {
       "name": "denom",
-      "line": 382
-    },
-    {
-      "name": "tierPal",
-      "line": 416
-    },
-    {
-      "name": "tierName",
-      "line": 417
-    },
-    {
-      "name": "zoneInfo",
-      "line": 432
-    },
-    {
-      "name": "zoneName",
-      "line": 433
-    },
-    {
-      "name": "zoneMult",
-      "line": 438
-    },
-    {
-      "name": "zoneCost",
-      "line": 439
-    },
-    {
-      "name": "capBase",
-      "line": 440
-    },
-    {
-      "name": "capMax",
-      "line": 441
-    },
-    {
-      "name": "minionCap",
-      "line": 442
-    },
-    {
-      "name": "pressCap",
-      "line": 443
-    },
-    {
-      "name": "coinPrice",
-      "line": 447
-    },
-    {
-      "name": "minionPrice",
-      "line": 448
-    },
-    {
-      "name": "upgPrice",
-      "line": 475
-    },
-    {
-      "name": "upgMax",
-      "line": 476
-    },
-    {
-      "name": "barsFor",
-      "line": 484
-    },
-    {
-      "name": "perkPrice",
-      "line": 496
-    },
-    {
-      "name": "cycleTime",
-      "line": 499
-    },
-    {
-      "name": "headsChance",
-      "line": 500
-    },
-    {
-      "name": "headsMult",
-      "line": 501
-    },
-    {
-      "name": "edgeChance",
-      "line": 502
-    },
-    {
-      "name": "offlineHours",
-      "line": 504
-    },
-    {
-      "name": "tapMult",
-      "line": 505
-    },
-    {
-      "name": "expectedFlip",
-      "line": 507
-    },
-    {
-      "name": "tierWeight",
       "line": 516
     },
     {
-      "name": "minionFlipValue",
-      "line": 517
+      "name": "tierPal",
+      "line": 550
     },
     {
-      "name": "xpNeed",
-      "line": 531
+      "name": "tierName",
+      "line": 551
     },
     {
-      "name": "levelGems",
-      "line": 532
+      "name": "zoneInfo",
+      "line": 566
     },
     {
-      "name": "capsulePrice",
-      "line": 535
+      "name": "zoneName",
+      "line": 567
     },
     {
-      "name": "fmt",
-      "line": 540
+      "name": "zoneMult",
+      "line": 572
     },
     {
-      "name": "fmtMul",
-      "line": 553
+      "name": "zoneCost",
+      "line": 573
     },
     {
-      "name": "zoneStory",
-      "line": 710
+      "name": "capBase",
+      "line": 574
     },
     {
-      "name": "ensureContent",
-      "line": 711
+      "name": "capMax",
+      "line": 575
     },
     {
-      "name": "journeyValue",
-      "line": 717
+      "name": "minionCap",
+      "line": 576
     },
     {
-      "name": "currentJourney",
-      "line": 724
-    },
-    {
-      "name": "claimJourney",
-      "line": 725
-    },
-    {
-      "name": "hatSetCount",
-      "line": 733
-    },
-    {
-      "name": "claimHatSet",
-      "line": 734
-    },
-    {
-      "name": "showJourney",
-      "line": 742
-    },
-    {
-      "name": "tabJourney",
-      "line": 743
-    },
-    {
-      "name": "appendHatSets",
-      "line": 760
-    },
-    {
-      "name": "showCoinStory",
-      "line": 772
-    },
-    {
-      "name": "rnd",
-      "line": 780
-    },
-    {
-      "name": "clamp",
-      "line": 781
-    },
-    {
-      "name": "lerp",
-      "line": 782
-    },
-    {
-      "name": "now",
-      "line": 783
-    },
-    {
-      "name": "today",
-      "line": 784
-    },
-    {
-      "name": "$",
-      "line": 785
-    },
-    {
-      "name": "el",
-      "line": 786
-    },
-    {
-      "name": "mmss",
-      "line": 787
-    },
-    {
-      "name": "hashStr",
-      "line": 788
-    },
-    {
-      "name": "newRunState",
-      "line": 791
-    },
-    {
-      "name": "defaultState",
-      "line": 800
-    },
-    {
-      "name": "R",
-      "line": 813
-    },
-    {
-      "name": "L",
-      "line": 814
-    },
-    {
-      "name": "P",
-      "line": 815
-    },
-    {
-      "name": "hasClub",
-      "line": 816
-    },
-    {
-      "name": "vip",
-      "line": 817
-    },
-    {
-      "name": "capacity",
-      "line": 820
-    },
-    {
-      "name": "cycleTime",
-      "line": 821
-    },
-    {
-      "name": "hatsOwnedBonus",
-      "line": 822
-    },
-    {
-      "name": "discCount",
-      "line": 823
-    },
-    {
-      "name": "baseMult",
-      "line": 825
-    },
-    {
-      "name": "valueMult",
-      "line": 830
-    },
-    {
-      "name": "roundNom",
-      "line": 833
-    },
-    {
-      "name": "coinValue",
-      "line": 839
-    },
-    {
-      "name": "boostMult",
-      "line": 840
-    },
-    {
-      "name": "headsP",
-      "line": 841
-    },
-    {
-      "name": "edgeP",
-      "line": 842
-    },
-    {
-      "name": "idleIncome",
-      "line": 844
-    },
-    {
-      "name": "pendingBars",
-      "line": 849
-    },
-    {
-      "name": "unlocked",
-      "line": 850
-    },
-    {
-      "name": "prestigeUnlocked",
-      "line": 851
-    },
-    {
-      "name": "serialize",
-      "line": 854
-    },
-    {
-      "name": "mergeLoaded",
-      "line": 860
-    },
-    {
-      "name": "saveLocal",
-      "line": 867
-    },
-    {
-      "name": "loadLocal",
-      "line": 868
-    },
-    {
-      "name": "saveAll",
-      "line": 870
-    },
-    {
-      "name": "ensure",
-      "line": 1026
-    },
-    {
-      "name": "tone",
-      "line": 1027
-    },
-    {
-      "name": "syncViewport",
-      "line": 1066
-    },
-    {
-      "name": "scheduleResize",
-      "line": 1083
-    },
-    {
-      "name": "resize",
-      "line": 1084
-    },
-    {
-      "name": "updateExcl",
-      "line": 1102
-    },
-    {
-      "name": "floorOK",
-      "line": 1112
-    },
-    {
-      "name": "clampFloor",
-      "line": 1118
-    },
-    {
-      "name": "tri",
-      "line": 1119
-    },
-    {
-      "name": "zoneCoinR",
-      "line": 1120
-    },
-    {
-      "name": "toScreen",
-      "line": 1121
-    },
-    {
-      "name": "toTable",
-      "line": 1122
-    },
-    {
-      "name": "coinPx",
-      "line": 1123
-    },
-    {
-      "name": "fitCoinsToFloor",
-      "line": 1125
-    },
-    {
-      "name": "freeSpot",
-      "line": 1129
-    },
-    {
-      "name": "nearFree",
-      "line": 1147
-    },
-    {
-      "name": "makeCoin",
-      "line": 1160
-    },
-    {
-      "name": "rebuildWorld",
-      "line": 1165
-    },
-    {
-      "name": "addMinion",
-      "line": 1173
-    },
-    {
-      "name": "pickHat",
-      "line": 1180
-    },
-    {
-      "name": "rehat",
-      "line": 1185
-    },
-    {
-      "name": "chooseTarget",
-      "line": 1188
-    },
-    {
-      "name": "updateMinion",
-      "line": 1204
-    },
-    {
-      "name": "flipCoin",
-      "line": 1233
-    },
-    {
-      "name": "landCoin",
-      "line": 1252
-    },
-    {
-      "name": "earn",
-      "line": 1282
-    },
-    {
-      "name": "canMerge",
-      "line": 1285
-    },
-    {
-      "name": "mergeCoins",
-      "line": 1286
-    },
-    {
-      "name": "pairs",
-      "line": 1299
-    },
-    {
-      "name": "mergeAllPairs",
-      "line": 1305
-    },
-    {
-      "name": "flyMerge",
-      "line": 1320
-    },
-    {
-      "name": "mergeLowestPair",
-      "line": 1321
+      "name": "pressCap",
+      "line": 577
     },
     {
       "name": "coinPrice",
-      "line": 1329
+      "line": 581
     },
     {
-      "name": "tableFull",
-      "line": 1330
+      "name": "minionPrice",
+      "line": 582
     },
     {
-      "name": "buyCoin",
-      "line": 1331
+      "name": "upgPrice",
+      "line": 609
     },
     {
-      "name": "doBuy",
-      "line": 1341
+      "name": "upgMax",
+      "line": 610
     },
     {
-      "name": "buyMinion",
-      "line": 1351
+      "name": "barsFor",
+      "line": 618
     },
     {
-      "name": "buyUpgrade",
-      "line": 1363
+      "name": "perkPrice",
+      "line": 630
     },
     {
-      "name": "zoneUp",
+      "name": "cycleTime",
+      "line": 633
+    },
+    {
+      "name": "headsChance",
+      "line": 634
+    },
+    {
+      "name": "headsMult",
+      "line": 635
+    },
+    {
+      "name": "edgeChance",
+      "line": 636
+    },
+    {
+      "name": "offlineHours",
+      "line": 638
+    },
+    {
+      "name": "tapMult",
+      "line": 639
+    },
+    {
+      "name": "expectedFlip",
+      "line": 641
+    },
+    {
+      "name": "tierWeight",
+      "line": 650
+    },
+    {
+      "name": "minionFlipValue",
+      "line": 651
+    },
+    {
+      "name": "xpNeed",
+      "line": 665
+    },
+    {
+      "name": "levelGems",
+      "line": 666
+    },
+    {
+      "name": "capsulePrice",
+      "line": 669
+    },
+    {
+      "name": "fmt",
+      "line": 674
+    },
+    {
+      "name": "fmtMul",
+      "line": 687
+    },
+    {
+      "name": "plural",
+      "line": 762
+    },
+    {
+      "name": "zoneStory",
+      "line": 851
+    },
+    {
+      "name": "ensureContent",
+      "line": 852
+    },
+    {
+      "name": "journeyValue",
+      "line": 858
+    },
+    {
+      "name": "currentJourney",
+      "line": 865
+    },
+    {
+      "name": "claimJourney",
+      "line": 866
+    },
+    {
+      "name": "hatSetCount",
+      "line": 874
+    },
+    {
+      "name": "claimHatSet",
+      "line": 875
+    },
+    {
+      "name": "showJourney",
+      "line": 883
+    },
+    {
+      "name": "tabJourney",
+      "line": 884
+    },
+    {
+      "name": "appendHatSets",
+      "line": 901
+    },
+    {
+      "name": "showCoinStory",
+      "line": 913
+    },
+    {
+      "name": "fmtMoney",
+      "line": 922
+    },
+    {
+      "name": "fmtCoin",
+      "line": 929
+    },
+    {
+      "name": "rnd",
+      "line": 930
+    },
+    {
+      "name": "clamp",
+      "line": 931
+    },
+    {
+      "name": "lerp",
+      "line": 932
+    },
+    {
+      "name": "now",
+      "line": 933
+    },
+    {
+      "name": "today",
+      "line": 934
+    },
+    {
+      "name": "$",
+      "line": 935
+    },
+    {
+      "name": "el",
+      "line": 936
+    },
+    {
+      "name": "mmss",
+      "line": 937
+    },
+    {
+      "name": "hashStr",
+      "line": 938
+    },
+    {
+      "name": "newRunState",
+      "line": 941
+    },
+    {
+      "name": "defaultState",
+      "line": 950
+    },
+    {
+      "name": "R",
+      "line": 963
+    },
+    {
+      "name": "L",
+      "line": 964
+    },
+    {
+      "name": "P",
+      "line": 965
+    },
+    {
+      "name": "hasClub",
+      "line": 966
+    },
+    {
+      "name": "vip",
+      "line": 967
+    },
+    {
+      "name": "capacity",
+      "line": 970
+    },
+    {
+      "name": "cycleTime",
+      "line": 971
+    },
+    {
+      "name": "hatsOwnedBonus",
+      "line": 972
+    },
+    {
+      "name": "discCount",
+      "line": 973
+    },
+    {
+      "name": "baseMult",
+      "line": 975
+    },
+    {
+      "name": "valueMult",
+      "line": 980
+    },
+    {
+      "name": "roundNom",
+      "line": 983
+    },
+    {
+      "name": "coinValue",
+      "line": 989
+    },
+    {
+      "name": "boostMult",
+      "line": 990
+    },
+    {
+      "name": "headsP",
+      "line": 991
+    },
+    {
+      "name": "edgeP",
+      "line": 992
+    },
+    {
+      "name": "idleIncome",
+      "line": 994
+    },
+    {
+      "name": "pendingBars",
+      "line": 999
+    },
+    {
+      "name": "unlocked",
+      "line": 1000
+    },
+    {
+      "name": "prestigeUnlocked",
+      "line": 1001
+    },
+    {
+      "name": "serialize",
+      "line": 1004
+    },
+    {
+      "name": "mergeLoaded",
+      "line": 1010
+    },
+    {
+      "name": "saveLocal",
+      "line": 1017
+    },
+    {
+      "name": "loadLocal",
+      "line": 1018
+    },
+    {
+      "name": "saveAll",
+      "line": 1020
+    },
+    {
+      "name": "ensure",
+      "line": 1176
+    },
+    {
+      "name": "tone",
+      "line": 1177
+    },
+    {
+      "name": "syncViewport",
+      "line": 1216
+    },
+    {
+      "name": "scheduleResize",
+      "line": 1233
+    },
+    {
+      "name": "resize",
+      "line": 1234
+    },
+    {
+      "name": "updateExcl",
+      "line": 1253
+    },
+    {
+      "name": "floorOK",
+      "line": 1263
+    },
+    {
+      "name": "clampFloor",
+      "line": 1269
+    },
+    {
+      "name": "tri",
+      "line": 1270
+    },
+    {
+      "name": "zoneCoinR",
+      "line": 1271
+    },
+    {
+      "name": "toScreen",
+      "line": 1272
+    },
+    {
+      "name": "toTable",
+      "line": 1273
+    },
+    {
+      "name": "coinPx",
+      "line": 1274
+    },
+    {
+      "name": "fitCoinsToFloor",
+      "line": 1276
+    },
+    {
+      "name": "freeSpot",
+      "line": 1280
+    },
+    {
+      "name": "nearFree",
+      "line": 1298
+    },
+    {
+      "name": "makeCoin",
+      "line": 1311
+    },
+    {
+      "name": "activeHires",
+      "line": 1317
+    },
+    {
+      "name": "extraMinions",
+      "line": 1318
+    },
+    {
+      "name": "syncExtras",
+      "line": 1319
+    },
+    {
+      "name": "rebuildWorld",
+      "line": 1332
+    },
+    {
+      "name": "addMinion",
+      "line": 1342
+    },
+    {
+      "name": "pickHat",
+      "line": 1349
+    },
+    {
+      "name": "rehat",
+      "line": 1354
+    },
+    {
+      "name": "chooseTarget",
+      "line": 1357
+    },
+    {
+      "name": "updateMinion",
       "line": 1373
     },
     {
-      "name": "doPrestige",
-      "line": 1391
+      "name": "flipCoin",
+      "line": 1402
     },
     {
-      "name": "buyPerk",
-      "line": 1401
+      "name": "landCoin",
+      "line": 1421
     },
     {
-      "name": "addXP",
-      "line": 1416
+      "name": "earn",
+      "line": 1451
     },
     {
-      "name": "discover",
-      "line": 1428
+      "name": "canMerge",
+      "line": 1454
     },
     {
-      "name": "ensureQuests",
-      "line": 1433
+      "name": "mergeCoins",
+      "line": 1455
     },
     {
-      "name": "quest",
-      "line": 1441
+      "name": "pairs",
+      "line": 1471
     },
     {
-      "name": "scheduleLucky",
-      "line": 1447
+      "name": "mergeAllPairs",
+      "line": 1477
     },
     {
-      "name": "spawnLucky",
-      "line": 1448
+      "name": "startMerge",
+      "line": 1495
     },
     {
-      "name": "catchLucky",
-      "line": 1452
+      "name": "updateMerges",
+      "line": 1504
     },
     {
-      "name": "burst",
-      "line": 1465
+      "name": "drawHopCoin",
+      "line": 1526
     },
     {
-      "name": "puff",
-      "line": 1472
-    },
-    {
-      "name": "ring",
-      "line": 1473
-    },
-    {
-      "name": "floatText",
-      "line": 1474
-    },
-    {
-      "name": "shade",
-      "line": 1482
-    },
-    {
-      "name": "mixHex",
-      "line": 1488
-    },
-    {
-      "name": "floorColors",
-      "line": 1493
-    },
-    {
-      "name": "drawZoneScenery",
-      "line": 1498
-    },
-    {
-      "name": "paintMintMark",
+      "name": "flyMerge",
       "line": 1544
     },
     {
-      "name": "buildTable",
-      "line": 1561
+      "name": "animMergeLowestPair",
+      "line": 1545
     },
     {
-      "name": "paintCoin",
-      "line": 1578
+      "name": "mergeLowestPair",
+      "line": 1550
     },
     {
-      "name": "coinSprite",
-      "line": 1627
+      "name": "coinPrice",
+      "line": 1558
     },
     {
-      "name": "drawCoinGround",
-      "line": 1640
+      "name": "tableFull",
+      "line": 1559
     },
     {
-      "name": "shadow",
+      "name": "buyCoin",
+      "line": 1560
+    },
+    {
+      "name": "doBuy",
+      "line": 1570
+    },
+    {
+      "name": "buyMinion",
+      "line": 1580
+    },
+    {
+      "name": "buyUpgrade",
+      "line": 1592
+    },
+    {
+      "name": "zoneUp",
+      "line": 1602
+    },
+    {
+      "name": "doPrestige",
+      "line": 1620
+    },
+    {
+      "name": "buyPerk",
+      "line": 1630
+    },
+    {
+      "name": "addXP",
       "line": 1645
     },
     {
-      "name": "drawMinion",
-      "line": 1649
+      "name": "discover",
+      "line": 1657
     },
     {
-      "name": "easeBack",
-      "line": 1694
+      "name": "newQuest",
+      "line": 1662
     },
     {
-      "name": "roundRect",
-      "line": 1695
+      "name": "ensureQuests",
+      "line": 1676
     },
     {
-      "name": "hatFill",
-      "line": 1696
+      "name": "quest",
+      "line": 1683
     },
     {
-      "name": "drawHat",
-      "line": 1702
+      "name": "rewardLabel",
+      "line": 1692
     },
     {
-      "name": "star",
+      "name": "claimQuest",
+      "line": 1699
+    },
+    {
+      "name": "fxLayer",
+      "line": 1715
+    },
+    {
+      "name": "confetti",
+      "line": 1716
+    },
+    {
+      "name": "navBtn",
+      "line": 1733
+    },
+    {
+      "name": "flyIcon",
+      "line": 1734
+    },
+    {
+      "name": "flyReward",
       "line": 1741
     },
     {
+      "name": "flashTracker",
+      "line": 1781
+    },
+    {
+      "name": "updateTracker",
+      "line": 1782
+    },
+    {
+      "name": "scheduleLucky",
+      "line": 1785
+    },
+    {
+      "name": "spawnLucky",
+      "line": 1786
+    },
+    {
+      "name": "catchLucky",
+      "line": 1790
+    },
+    {
+      "name": "burst",
+      "line": 1803
+    },
+    {
+      "name": "puff",
+      "line": 1810
+    },
+    {
+      "name": "ring",
+      "line": 1811
+    },
+    {
+      "name": "floatText",
+      "line": 1812
+    },
+    {
+      "name": "shade",
+      "line": 1820
+    },
+    {
+      "name": "mixHex",
+      "line": 1826
+    },
+    {
+      "name": "floorStyle",
+      "line": 1845
+    },
+    {
+      "name": "floorColors",
+      "line": 1846
+    },
+    {
+      "name": "drawFloor",
+      "line": 1848
+    },
+    {
+      "name": "rr",
+      "line": 1850
+    },
+    {
+      "name": "pShadow",
+      "line": 1944
+    },
+    {
+      "name": "pStroke",
+      "line": 1945
+    },
+    {
+      "name": "drawZoneProps",
+      "line": 1988
+    },
+    {
+      "name": "paintMintMark",
+      "line": 1998
+    },
+    {
+      "name": "buildTable",
+      "line": 2015
+    },
+    {
+      "name": "floorPreview",
+      "line": 2025
+    },
+    {
+      "name": "paintCoin",
+      "line": 2032
+    },
+    {
+      "name": "coinSprite",
+      "line": 2081
+    },
+    {
+      "name": "drawCoinGround",
+      "line": 2095
+    },
+    {
+      "name": "shadow",
+      "line": 2100
+    },
+    {
+      "name": "drawMinion",
+      "line": 2104
+    },
+    {
+      "name": "easeBack",
+      "line": 2149
+    },
+    {
+      "name": "roundRect",
+      "line": 2150
+    },
+    {
+      "name": "hatFill",
+      "line": 2151
+    },
+    {
+      "name": "drawHat",
+      "line": 2157
+    },
+    {
+      "name": "star",
+      "line": 2196
+    },
+    {
       "name": "render",
-      "line": 1744
-    },
-    {
-      "name": "drawEdgeCoin",
-      "line": 1856
-    },
-    {
-      "name": "easeOutQuad",
-      "line": 1866
-    },
-    {
-      "name": "update",
-      "line": 1873
-    },
-    {
-      "name": "loop",
-      "line": 1914
-    },
-    {
-      "name": "hitCoin",
-      "line": 1924
-    },
-    {
-      "name": "hitLucky",
-      "line": 1934
-    },
-    {
-      "name": "endDrag",
-      "line": 1959
-    },
-    {
-      "name": "tapFlip",
-      "line": 1983
-    },
-    {
-      "name": "gemSVG",
-      "line": 2016
-    },
-    {
-      "name": "coinIcon",
-      "line": 2018
-    },
-    {
-      "name": "drawCoinTo",
-      "line": 2027
-    },
-    {
-      "name": "cashImg",
-      "line": 2028
-    },
-    {
-      "name": "barSVG",
-      "line": 2029
-    },
-    {
-      "name": "minionIcon",
-      "line": 2030
-    },
-    {
-      "name": "setupStaticUI",
-      "line": 2047
-    },
-    {
-      "name": "refreshUI",
-      "line": 2084
-    },
-    {
-      "name": "tabSig",
-      "line": 2152
-    },
-    {
-      "name": "pulse",
-      "line": 2160
-    },
-    {
-      "name": "shakeEl",
-      "line": 2161
-    },
-    {
-      "name": "toast",
-      "line": 2162
-    },
-    {
-      "name": "updateHint",
-      "line": 2164
-    },
-    {
-      "name": "openTab",
-      "line": 2179
-    },
-    {
-      "name": "closeAll",
-      "line": 2192
-    },
-    {
-      "name": "renderTab",
       "line": 2199
     },
     {
-      "name": "priceBtn",
-      "line": 2210
+      "name": "drawMergeGlow",
+      "line": 2317
     },
     {
-      "name": "tabUpgrades",
-      "line": 2216
+      "name": "hexA",
+      "line": 2334
     },
     {
-      "name": "tabPrestige",
-      "line": 2233
+      "name": "drawEdgeCoin",
+      "line": 2335
     },
     {
-      "name": "tabCollection",
-      "line": 2257
+      "name": "easeOutQuad",
+      "line": 2345
     },
     {
-      "name": "maxDisc",
-      "line": 2297
+      "name": "update",
+      "line": 2352
     },
     {
-      "name": "openCapsule",
-      "line": 2298
+      "name": "reportErr",
+      "line": 2395
     },
     {
-      "name": "tabShop",
-      "line": 2311
+      "name": "loop",
+      "line": 2396
     },
     {
-      "name": "shopCard",
-      "line": 2338
-    },
-    {
-      "name": "gemBuy",
-      "line": 2346
-    },
-    {
-      "name": "modal",
-      "line": 2358
-    },
-    {
-      "name": "queueModal",
-      "line": 2359
-    },
-    {
-      "name": "closeModal",
-      "line": 2360
-    },
-    {
-      "name": "showZone",
-      "line": 2367
-    },
-    {
-      "name": "showDaily",
-      "line": 2377
-    },
-    {
-      "name": "showQuests",
-      "line": 2393
-    },
-    {
-      "name": "showInvite",
+      "name": "hitCoin",
       "line": 2407
     },
     {
+      "name": "hitLucky",
+      "line": 2417
+    },
+    {
+      "name": "endDrag",
+      "line": 2442
+    },
+    {
+      "name": "tapFlip",
+      "line": 2466
+    },
+    {
+      "name": "svgDefs",
+      "line": 2528
+    },
+    {
+      "name": "tile",
+      "line": 2537
+    },
+    {
+      "name": "glyph",
+      "line": 2544
+    },
+    {
+      "name": "iconFor",
+      "line": 2555
+    },
+    {
+      "name": "gemPack",
+      "line": 2556
+    },
+    {
+      "name": "gemSVG",
+      "line": 2558
+    },
+    {
+      "name": "coinIcon",
+      "line": 2560
+    },
+    {
+      "name": "drawCoinTo",
+      "line": 2569
+    },
+    {
+      "name": "cashImg",
+      "line": 2570
+    },
+    {
+      "name": "barSVG",
+      "line": 2571
+    },
+    {
+      "name": "minionIcon",
+      "line": 2572
+    },
+    {
+      "name": "setupStaticUI",
+      "line": 2589
+    },
+    {
+      "name": "refreshUI",
+      "line": 2629
+    },
+    {
+      "name": "tabSig",
+      "line": 2702
+    },
+    {
+      "name": "pulse",
+      "line": 2710
+    },
+    {
+      "name": "shakeEl",
+      "line": 2711
+    },
+    {
+      "name": "toast",
+      "line": 2712
+    },
+    {
+      "name": "updateHint",
+      "line": 2714
+    },
+    {
+      "name": "openTab",
+      "line": 2729
+    },
+    {
+      "name": "closeAll",
+      "line": 2742
+    },
+    {
+      "name": "renderTab",
+      "line": 2749
+    },
+    {
+      "name": "priceBtn",
+      "line": 2760
+    },
+    {
+      "name": "tabUpgrades",
+      "line": 2766
+    },
+    {
+      "name": "tabPrestige",
+      "line": 2783
+    },
+    {
+      "name": "tabCollection",
+      "line": 2807
+    },
+    {
+      "name": "maxDisc",
+      "line": 2847
+    },
+    {
+      "name": "openCapsule",
+      "line": 2848
+    },
+    {
+      "name": "tabShop",
+      "line": 2861
+    },
+    {
+      "name": "shopCard",
+      "line": 2891
+    },
+    {
+      "name": "gemBuy",
+      "line": 2899
+    },
+    {
+      "name": "modal",
+      "line": 2915
+    },
+    {
+      "name": "queueModal",
+      "line": 2920
+    },
+    {
+      "name": "closeModal",
+      "line": 2921
+    },
+    {
+      "name": "showMinionCap",
+      "line": 2929
+    },
+    {
+      "name": "showZone",
+      "line": 2939
+    },
+    {
+      "name": "showDaily",
+      "line": 2949
+    },
+    {
+      "name": "showQuests",
+      "line": 2965
+    },
+    {
+      "name": "showInvite",
+      "line": 2986
+    },
+    {
       "name": "showBoost",
-      "line": 2412
+      "line": 2991
     },
     {
       "name": "showSettings",
-      "line": 2419
+      "line": 2998
+    },
+    {
+      "name": "offlineValue",
+      "line": 3015
     },
     {
       "name": "showOffline",
-      "line": 2435
+      "line": 3027
     },
     {
       "name": "applyTheme",
-      "line": 2446
+      "line": 3038
     },
     {
       "name": "boot",
-      "line": 2458
+      "line": 3050
     },
     {
       "name": "start",
-      "line": 2492
+      "line": 3085
     }
   ],
   "content": {
@@ -1112,7 +1256,7 @@
       {
         "id": "capital",
         "name": "Серьёзный капитал",
-        "text": "Заработай суммарно 50 миллионов монет.",
+        "text": "Заработай суммарно $500K.",
         "story": "Цифры стали большими, а первая медная монетка всё ещё лежит в памяти.",
         "metric": "total",
         "goal": 50000000,
@@ -1468,385 +1612,385 @@
       "zone": 1,
       "name": "Кухонный стол",
       "multiplier": 1,
-      "nextZonePrice": 1500,
+      "nextZonePrice": 2000,
       "baseCapacity": 6,
       "declaredMaxCapacity": 12,
       "capacityUpgradeMax": 6,
-      "minionMax": 6,
+      "minionMax": 3,
       "pressMax": 1
     },
     {
       "zone": 2,
       "name": "Барная стойка",
       "multiplier": 5,
-      "nextZonePrice": 877500,
+      "nextZonePrice": 1300000,
       "baseCapacity": 7,
       "declaredMaxCapacity": 14,
       "capacityUpgradeMax": 7,
-      "minionMax": 9,
+      "minionMax": 5,
       "pressMax": 3
     },
     {
       "zone": 3,
       "name": "Подпольный клуб",
       "multiplier": 25,
-      "nextZonePrice": 513337500,
+      "nextZonePrice": 845000000,
       "baseCapacity": 8,
       "declaredMaxCapacity": 16,
       "capacityUpgradeMax": 8,
-      "minionMax": 12,
+      "minionMax": 7,
       "pressMax": 5
     },
     {
       "zone": 4,
       "name": "Казино «Фортуна»",
       "multiplier": 125,
-      "nextZonePrice": 300302437500,
+      "nextZonePrice": 549250000000,
       "baseCapacity": 9,
       "declaredMaxCapacity": 18,
       "capacityUpgradeMax": 9,
-      "minionMax": 15,
+      "minionMax": 9,
       "pressMax": 7
     },
     {
       "zone": 5,
       "name": "Банковский сейф",
       "multiplier": 625,
-      "nextZonePrice": 175676925937500,
+      "nextZonePrice": 357012500000000,
       "baseCapacity": 10,
       "declaredMaxCapacity": 20,
       "capacityUpgradeMax": 10,
-      "minionMax": 18,
+      "minionMax": 11,
       "pressMax": 9
     },
     {
       "zone": 6,
       "name": "Королевская казна",
       "multiplier": 3125,
-      "nextZonePrice": 102771001673437500,
+      "nextZonePrice": 232058125000000000,
       "baseCapacity": 11,
       "declaredMaxCapacity": 22,
       "capacityUpgradeMax": 11,
-      "minionMax": 21,
+      "minionMax": 13,
       "pressMax": 11
     },
     {
       "zone": 7,
       "name": "Пиратский трюм",
       "multiplier": 15625,
-      "nextZonePrice": 60121035978960940000,
+      "nextZonePrice": 150837781250000000000,
       "baseCapacity": 12,
       "declaredMaxCapacity": 24,
       "capacityUpgradeMax": 12,
-      "minionMax": 24,
+      "minionMax": 15,
       "pressMax": 13
     },
     {
       "zone": 8,
       "name": "Драконье логово",
       "multiplier": 78125,
-      "nextZonePrice": 3.5170806047692147e+22,
+      "nextZonePrice": 9.80445578125e+22,
       "baseCapacity": 13,
       "declaredMaxCapacity": 26,
       "capacityUpgradeMax": 13,
-      "minionMax": 27,
+      "minionMax": 17,
       "pressMax": 15
     },
     {
       "zone": 9,
       "name": "Лунная биржа",
       "multiplier": 390625,
-      "nextZonePrice": 2.057492153789991e+25,
+      "nextZonePrice": 6.3728962578125e+25,
       "baseCapacity": 14,
       "declaredMaxCapacity": 28,
       "capacityUpgradeMax": 14,
-      "minionMax": 30,
+      "minionMax": 19,
       "pressMax": 17
     },
     {
       "zone": 10,
       "name": "Звёздный монетный двор",
       "multiplier": 1953125,
-      "nextZonePrice": 1.2036329099671446e+28,
+      "nextZonePrice": 4.1423825675781255e+28,
       "baseCapacity": 15,
       "declaredMaxCapacity": 30,
       "capacityUpgradeMax": 15,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 19
     },
     {
       "zone": 11,
       "name": "Кухонный стол II",
       "multiplier": 9765625,
-      "nextZonePrice": 7.041252523307795e+30,
+      "nextZonePrice": 2.692548668925781e+31,
       "baseCapacity": 16,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 16,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 21
     },
     {
       "zone": 12,
       "name": "Барная стойка II",
       "multiplier": 48828125,
-      "nextZonePrice": 4.11913272613506e+33,
+      "nextZonePrice": 1.7501566348017577e+34,
       "baseCapacity": 17,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 15,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 23
     },
     {
       "zone": 13,
       "name": "Подпольный клуб II",
       "multiplier": 244140625,
-      "nextZonePrice": 2.4096926447890103e+36,
+      "nextZonePrice": 1.1376018126211427e+37,
       "baseCapacity": 18,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 14,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 25
     },
     {
       "zone": 14,
       "name": "Казино «Фортуна» II",
       "multiplier": 1220703125,
-      "nextZonePrice": 1.409670197201571e+39,
+      "nextZonePrice": 7.394411782037427e+39,
       "baseCapacity": 19,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 13,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 27
     },
     {
       "zone": 15,
       "name": "Банковский сейф II",
       "multiplier": 6103515625,
-      "nextZonePrice": 8.24657065362919e+41,
+      "nextZonePrice": 4.8063676583243273e+42,
       "baseCapacity": 20,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 12,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 29
     },
     {
       "zone": 16,
       "name": "Королевская казна II",
       "multiplier": 30517578125,
-      "nextZonePrice": 4.824243832373076e+44,
+      "nextZonePrice": 3.124138977910812e+45,
       "baseCapacity": 21,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 11,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 31
     },
     {
       "zone": 17,
       "name": "Пиратский трюм II",
       "multiplier": 152587890625,
-      "nextZonePrice": 2.8221826419382496e+47,
+      "nextZonePrice": 2.0306903356420282e+48,
       "baseCapacity": 22,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 10,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 33
     },
     {
       "zone": 18,
       "name": "Драконье логово II",
       "multiplier": 762939453125,
-      "nextZonePrice": 1.6509768455338763e+50,
+      "nextZonePrice": 1.3199487181673185e+51,
       "baseCapacity": 23,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 9,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 35
     },
     {
       "zone": 19,
       "name": "Лунная биржа II",
       "multiplier": 3814697265625,
-      "nextZonePrice": 9.658214546373176e+52,
+      "nextZonePrice": 8.57966666808757e+53,
       "baseCapacity": 24,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 8,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 37
     },
     {
       "zone": 20,
       "name": "Звёздный монетный двор II",
       "multiplier": 19073486328125,
-      "nextZonePrice": 5.650055509628307e+55,
+      "nextZonePrice": 5.576783334256921e+56,
       "baseCapacity": 25,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 7,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 39
     },
     {
       "zone": 21,
       "name": "Кухонный стол III",
       "multiplier": 95367431640625,
-      "nextZonePrice": 3.30528247313256e+58,
+      "nextZonePrice": 3.624909167266998e+59,
       "baseCapacity": 26,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 6,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 41
     },
     {
       "zone": 22,
       "name": "Барная стойка III",
       "multiplier": 476837158203125,
-      "nextZonePrice": 1.9335902467825476e+61,
+      "nextZonePrice": 2.356190958723549e+62,
       "baseCapacity": 27,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 5,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 43
     },
     {
       "zone": 23,
       "name": "Подпольный клуб III",
       "multiplier": 2384185791015625,
-      "nextZonePrice": 1.1311502943677905e+64,
+      "nextZonePrice": 1.5315241231703069e+65,
       "baseCapacity": 28,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 4,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 45
     },
     {
       "zone": 24,
       "name": "Казино «Фортуна» III",
       "multiplier": 11920928955078124,
-      "nextZonePrice": 6.617229222051574e+66,
+      "nextZonePrice": 9.954906800606993e+67,
       "baseCapacity": 29,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 3,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 47
     },
     {
       "zone": 25,
       "name": "Банковский сейф III",
       "multiplier": 59604644775390620,
-      "nextZonePrice": 3.87107909490017e+69,
+      "nextZonePrice": 6.470689420394546e+70,
       "baseCapacity": 30,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 2,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 49
     },
     {
       "zone": 26,
       "name": "Королевская казна III",
       "multiplier": 298023223876953150,
-      "nextZonePrice": 2.2645812705165998e+72,
+      "nextZonePrice": 4.2059481232564545e+73,
       "baseCapacity": 31,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 1,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 51
     },
     {
       "zone": 27,
       "name": "Пиратский трюм III",
       "multiplier": 1490116119384765700,
-      "nextZonePrice": 1.3247800432522109e+75,
+      "nextZonePrice": 2.733866280116696e+76,
       "baseCapacity": 32,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": 0,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 28,
       "name": "Драконье логово III",
       "multiplier": 7450580596923828000,
-      "nextZonePrice": 7.749963253025432e+77,
+      "nextZonePrice": 1.7770130820758522e+79,
       "baseCapacity": 33,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -1,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 29,
       "name": "Лунная биржа III",
       "multiplier": 37252902984619140000,
-      "nextZonePrice": 4.5337285030198785e+80,
+      "nextZonePrice": 1.155058503349304e+82,
       "baseCapacity": 34,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -2,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 30,
       "name": "Звёздный монетный двор III",
       "multiplier": 186264514923095700000,
-      "nextZonePrice": 2.652231174266629e+83,
+      "nextZonePrice": 7.507880271770476e+84,
       "baseCapacity": 35,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -3,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 31,
       "name": "Кухонный стол IV",
       "multiplier": 931322574615478500000,
-      "nextZonePrice": 1.551555236945978e+86,
+      "nextZonePrice": 4.880122176650809e+87,
       "baseCapacity": 36,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -4,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 32,
       "name": "Барная стойка IV",
       "multiplier": 4.6566128730773924e+21,
-      "nextZonePrice": 9.076598136133971e+88,
+      "nextZonePrice": 3.172079414823026e+90,
       "baseCapacity": 37,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -5,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 33,
       "name": "Подпольный клуб IV",
       "multiplier": 2.3283064365386964e+22,
-      "nextZonePrice": 5.309809909638373e+91,
+      "nextZonePrice": 2.0618516196349666e+93,
       "baseCapacity": 38,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -6,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 34,
       "name": "Казино «Фортуна» IV",
       "multiplier": 1.164153218269348e+23,
-      "nextZonePrice": 3.106238797138448e+94,
+      "nextZonePrice": 1.3402035527627284e+96,
       "baseCapacity": 39,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -7,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     },
     {
       "zone": 35,
       "name": "Банковский сейф IV",
       "multiplier": 5.8207660913467404e+23,
-      "nextZonePrice": 1.817149696325992e+97,
+      "nextZonePrice": 8.711323092957734e+98,
       "baseCapacity": 40,
       "declaredMaxCapacity": 32,
       "capacityUpgradeMax": -8,
-      "minionMax": 30,
+      "minionMax": 20,
       "pressMax": 53
     }
   ],
@@ -1854,8 +1998,8 @@
     {
       "id": "tap",
       "name": "Ловкие пальцы",
-      "base": 12,
-      "growth": 2.6,
+      "base": 25,
+      "growth": 2.8,
       "declaredMax": 8,
       "actualMaxZone1": 8,
       "actualMaxZone15": 8
@@ -1863,8 +2007,8 @@
     {
       "id": "speed",
       "name": "Бодрые миньоны",
-      "base": 60,
-      "growth": 2.25,
+      "base": 250,
+      "growth": 2.5,
       "declaredMax": 20,
       "actualMaxZone1": 20,
       "actualMaxZone15": 20
@@ -1872,8 +2016,8 @@
     {
       "id": "heads",
       "name": "Подкова",
-      "base": 75,
-      "growth": 2.7,
+      "base": 150,
+      "growth": 2.8,
       "declaredMax": 12,
       "actualMaxZone1": 12,
       "actualMaxZone15": 12
@@ -1881,8 +2025,8 @@
     {
       "id": "mult",
       "name": "Позолота",
-      "base": 200,
-      "growth": 2.35,
+      "base": 350,
+      "growth": 2.5,
       "declaredMax": 200,
       "actualMaxZone1": 200,
       "actualMaxZone15": 200
@@ -1890,8 +2034,8 @@
     {
       "id": "cap",
       "name": "Большой стол",
-      "base": 30,
-      "growth": 1.95,
+      "base": 50,
+      "growth": 2.1,
       "declaredMax": 40,
       "actualMaxZone1": 6,
       "actualMaxZone15": 12
@@ -1899,8 +2043,8 @@
     {
       "id": "press",
       "name": "Монетный пресс",
-      "base": 450,
-      "growth": 9,
+      "base": 1000,
+      "growth": 10,
       "declaredMax": 30,
       "actualMaxZone1": 1,
       "actualMaxZone15": 29
@@ -1908,8 +2052,8 @@
     {
       "id": "edge",
       "name": "На ребро",
-      "base": 1250,
-      "growth": 3.1,
+      "base": 3500,
+      "growth": 3.2,
       "declaredMax": 14,
       "actualMaxZone1": 14,
       "actualMaxZone15": 14
@@ -1917,8 +2061,8 @@
     {
       "id": "mint",
       "name": "Чеканка",
-      "base": 3000,
-      "growth": 5.2,
+      "base": 7000,
+      "growth": 6,
       "declaredMax": 500,
       "actualMaxZone1": 500,
       "actualMaxZone15": 500
@@ -1926,7 +2070,7 @@
     {
       "id": "auto",
       "name": "Автомерж",
-      "base": 2000,
+      "base": 4000,
       "growth": 1,
       "declaredMax": 1,
       "actualMaxZone1": 1,
@@ -1935,7 +2079,7 @@
     {
       "id": "safe",
       "name": "Сейф",
-      "base": 4000,
+      "base": 6000,
       "growth": 3,
       "declaredMax": 10,
       "actualMaxZone1": 10,
@@ -1953,8 +2097,8 @@
     {
       "id": "p_start",
       "name": "Наследство",
-      "base": 2,
-      "growth": 2,
+      "base": 3,
+      "growth": 2.6,
       "max": 6
     },
     {
@@ -1998,38 +2142,38 @@
     "HAT_BONUS": 0.03,
     "BARS_MIN": 50000000,
     "PRESTIGE_ZONE": 3,
-    "BASE_CYCLE": 2.6,
+    "BASE_CYCLE": 4,
     "AIR_TIME": 0.95,
     "EDGE_MULT": 10
   },
   "samples": {
     "coinPrices": [
       3,
-      3,
       4,
       4,
-      4,
-      5,
       5,
       6,
       6,
       7,
       8,
-      9
+      9,
+      10,
+      12,
+      13
     ],
     "minionPrices": [
-      13,
-      21,
-      33,
-      54,
-      87,
-      140,
-      226,
-      367,
-      593,
-      961,
-      1557,
-      2522
+      40,
+      100,
+      250,
+      625,
+      1563,
+      3907,
+      9766,
+      24415,
+      61036,
+      152588,
+      381470,
+      953675
     ],
     "xp": [
       {

@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-10-11T15:36:07.537Z",
+  "executedAt": "2026-10-11T17:51:51.143Z",
   "browser": "154.0.8037.99",
   "isolation": "Fresh contexts; local HTML route; external SDKs and API blocked; no real Telegram account",
   "tests": 51,
@@ -81,7 +81,7 @@
       "evidence": {
         "count": 6,
         "bought": 4,
-        "money": 986
+        "money": 984
       }
     },
     {
@@ -114,10 +114,10 @@
       "result": "pass",
       "evidence": {
         "minions": 1,
-        "flips": 29,
-        "earned": 16,
-        "xp": 7.25,
-        "idle": 0.19615384615384615
+        "flips": 23,
+        "earned": 13,
+        "xp": 5.75,
+        "idle": 0.1275
       }
     },
     {
@@ -135,7 +135,7 @@
       "kind": "behavior",
       "result": "pass",
       "evidence": {
-        "money": 500,
+        "money": 0,
         "zone": 2,
         "cap": 9,
         "bought": 7,
@@ -223,9 +223,10 @@
       "kind": "behavior",
       "result": "pass",
       "evidence": {
-        "claimed": 1,
-        "gems": 18,
-        "reward": 8
+        "done": 1,
+        "gems": 17,
+        "list": 3,
+        "nextProgress": 0
       }
     },
     {
@@ -255,7 +256,7 @@
       "kind": "behavior",
       "result": "pass",
       "evidence": {
-        "gems": 105,
+        "gems": 75,
         "tokens": 50,
         "money": 100,
         "boost": true,
@@ -267,9 +268,9 @@
       "kind": "behavior",
       "result": "pass",
       "evidence": {
-        "rate": 0.19615384615384615,
-        "earned": 1412.3076923076924,
-        "expected": 1412.3076923076924
+        "rate": 0.1275,
+        "earned": 459,
+        "expected": 459
       }
     },
     {
@@ -277,8 +278,8 @@
       "kind": "behavior",
       "result": "pass",
       "evidence": {
-        "earned": 7414.615384615385,
-        "expected": 7414.615384615385
+        "earned": 4131,
+        "expected": 4131
       }
     },
     {
@@ -295,36 +296,37 @@
       "kind": "known-defect",
       "result": "pass",
       "evidence": {
-        "offered": "С возвращением!Пока тебя не было 1ч 0м, бригада заработала:706Забрать×2 за рекламу",
+        "offered": "С возвращением!Пока тебя не было 1ч 0м, бригада заработала:$4.59Забрать×2 за рекламу",
         "money": 0,
         "modal": false,
         "savedMoney": 0
       }
     },
     {
-      "id": "B03-max-tier-overflow",
-      "kind": "known-defect",
+      "id": "B03-max-tier-protected",
+      "kind": "regression",
       "result": "pass",
       "evidence": {
         "pairsBefore": 0,
         "tiers": [
-          60
+          59,
+          59
         ],
         "max": 59
       }
     },
     {
-      "id": "B04-overlapping-merge-jobs",
-      "kind": "known-defect",
+      "id": "B04-overlapping-merge-jobs-fixed",
+      "kind": "regression",
       "result": "pass",
       "evidence": {
-        "jobs": 3,
+        "jobs": 2,
         "tiers": [
-          0,
-          2
+          1,
+          1
         ],
         "states": [
-          "fly",
+          "ground",
           "ground"
         ],
         "merges": 2
@@ -407,7 +409,7 @@
       "kind": "regression",
       "result": "pass",
       "evidence": {
-        "money": 12,
+        "money": 25,
         "buttonDisabled": false,
         "signatureCurrent": true
       }
@@ -417,12 +419,12 @@
       "kind": "regression",
       "result": "pass",
       "evidence": {
-        "top": 126.390625,
-        "bottom": 323,
-        "vMax": 0.41597244261081134,
-        "diameter": 100.43812500000001,
-        "minV": -0.17797244261081135,
-        "maxV": 0.22897244261081132
+        "top": 92.796875,
+        "bottom": 382,
+        "vMax": 0.5635702628309746,
+        "diameter": 109.04703125,
+        "minV": -0.32557026283097457,
+        "maxV": 0.3765702628309745
       }
     },
     {
@@ -581,8 +583,8 @@
             true,
             true
           ],
-          "left": 8,
-          "right": 382,
+          "left": 0,
+          "right": 390,
           "diameter": 66.30000000000001
         },
         {
@@ -604,8 +606,8 @@
             true,
             true
           ],
-          "left": 8,
-          "right": 312,
+          "left": 0,
+          "right": 320,
           "diameter": 54.400000000000006
         }
       ]
@@ -655,90 +657,90 @@
           "zone": 1,
           "chapter": "Всё начинается с мелочи",
           "colors": {
-            "top": "#f1dfc0",
-            "mid": "#e2c598",
-            "bot": "#c8a16e"
+            "top": "#e7eef4",
+            "mid": "#dbe5ee",
+            "bot": "#c9d6e2"
           }
         },
         {
           "zone": 2,
           "chapter": "Сдача остаётся тебе",
           "colors": {
-            "top": "#ead0ac",
-            "mid": "#cf9e73",
-            "bot": "#ac754f"
+            "top": "#ecd0a6",
+            "mid": "#ddb684",
+            "bot": "#c89d6a"
           }
         },
         {
           "zone": 3,
           "chapter": "Свои люди",
           "colors": {
-            "top": "#c3ddd2",
-            "mid": "#8bbcad",
-            "bot": "#659e90"
+            "top": "#8fcdb8",
+            "mid": "#6fb9a0",
+            "bot": "#559f87"
           }
         },
         {
           "zone": 4,
           "chapter": "На зелёном сукне",
           "colors": {
-            "top": "#b0d4bc",
-            "mid": "#6da58c",
-            "bot": "#467968"
+            "top": "#6dcb93",
+            "mid": "#4fb579",
+            "bot": "#3c9a62"
           }
         },
         {
           "zone": 5,
           "chapter": "За семью замками",
           "colors": {
-            "top": "#d7e3eb",
-            "mid": "#a7becd",
-            "bot": "#7b95ab"
+            "top": "#e6eaef",
+            "mid": "#d4dae2",
+            "bot": "#bfc7d2"
           }
         },
         {
           "zone": 6,
           "chapter": "Королевский заказ",
           "colors": {
-            "top": "#e6cbd6",
-            "mid": "#c19aa9",
-            "bot": "#966c83"
+            "top": "#e4818c",
+            "mid": "#d46775",
+            "bot": "#bd5262"
           }
         },
         {
           "zone": 7,
           "chapter": "Звон семи морей",
           "colors": {
-            "top": "#e1ceb0",
-            "mid": "#bb9b72",
-            "bot": "#94734f"
+            "top": "#d3bc98",
+            "mid": "#bfa47d",
+            "bot": "#a68a63"
           }
         },
         {
           "zone": 8,
           "chapter": "Горячая чеканка",
           "colors": {
-            "top": "#d2c9d4",
-            "mid": "#ada0b3",
-            "bot": "#827489"
+            "top": "#d9a284",
+            "mid": "#c78a6b",
+            "bot": "#ad6f52"
           }
         },
         {
           "zone": 9,
           "chapter": "Мелочь невесомости",
           "colors": {
-            "top": "#e0e3f4",
-            "mid": "#b7c1df",
-            "bot": "#919bc3"
+            "top": "#e8e6f4",
+            "mid": "#d8d5ec",
+            "bot": "#c2bddd"
           }
         },
         {
           "zone": 10,
           "chapter": "Твой знак среди звёзд",
           "colors": {
-            "top": "#ddd7f2",
-            "mid": "#b4a7d5",
-            "bot": "#8e80b6"
+            "top": "#ecdffa",
+            "mid": "#dccaf3",
+            "bot": "#c6aee8"
           }
         }
       ]
@@ -749,8 +751,8 @@
       "result": "pass",
       "errors": [],
       "evidence": {
-        "heading": 163.328125,
-        "body": 163.234375
+        "heading": 121,
+        "body": 120.90625
       }
     }
   ]

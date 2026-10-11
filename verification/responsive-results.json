@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-10-11T15:34:15.504Z",
+  "executedAt": "2026-10-11T17:47:59.839Z",
   "browser": "154.0.8037.99",
   "tests": 15,
   "passed": 15,
@@ -25,43 +25,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 81.25,
-            "top": 491,
-            "right": 198.734375,
-            "bottom": 525
+            "visible": true,
+            "left": 94,
+            "top": 493.609375,
+            "right": 186,
+            "bottom": 525.609375
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 417.625,
-            "right": 76.21875,
-            "bottom": 525
+            "top": 417.609375,
+            "right": 54,
+            "bottom": 463.609375
           },
           {
             "id": "btnMinion",
-            "left": 203.765625,
-            "top": 417.625,
+            "visible": true,
+            "left": 226,
+            "top": 417.609375,
             "right": 272,
-            "bottom": 525
+            "bottom": 463.609375
           },
           {
-            "id": "zonepill",
-            "left": 61.84375,
-            "top": 379.625,
-            "right": 218.15625,
-            "bottom": 407.625
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 535,
+            "top": 491.609375,
             "right": 280,
             "bottom": 600
           }
@@ -69,10 +75,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 366.625,
-          "minV": -0.8344748883928572,
-          "maxV": 0.8854748883928572
+          "top": 86.390625,
+          "bottom": 483.609375,
+          "minV": -1.5352979910714286,
+          "maxV": 1.5862979910714285
         },
         "valid": true,
         "errors": [],
@@ -99,43 +105,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 94.984375,
-            "top": 377,
-            "right": 224.984375,
-            "bottom": 411
+            "visible": true,
+            "left": 114,
+            "top": 373.609375,
+            "right": 206,
+            "bottom": 405.609375
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 307.625,
-            "right": 86.578125,
-            "bottom": 411
+            "top": 297.609375,
+            "right": 54,
+            "bottom": 343.609375
           },
           {
             "id": "btnMinion",
-            "left": 233.40625,
-            "top": 307.625,
+            "visible": true,
+            "left": 266,
+            "top": 297.609375,
             "right": 312,
-            "bottom": 411
+            "bottom": 343.609375
           },
           {
-            "id": "zonepill",
-            "left": 81.84375,
-            "top": 271.625,
-            "right": 238.15625,
-            "bottom": 299.625
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 421,
+            "top": 371.609375,
             "right": 320,
             "bottom": 480
           }
@@ -143,10 +155,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 261.625,
-          "minV": -0.29025927734375,
-          "maxV": 0.34125927734374994
+          "top": 86.390625,
+          "bottom": 363.609375,
+          "minV": -0.8448857421875,
+          "maxV": 0.8958857421875
         },
         "valid": true,
         "errors": [],
@@ -173,43 +185,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 187.65625,
-            "top": 263,
-            "right": 227.65625,
-            "bottom": 331
+            "visible": true,
+            "left": 114,
+            "top": 293.609375,
+            "right": 206,
+            "bottom": 325.609375
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 263,
-            "right": 86.578125,
-            "bottom": 331
+            "top": 217.609375,
+            "right": 54,
+            "bottom": 263.609375
           },
           {
             "id": "btnMinion",
-            "left": 233.40625,
-            "top": 263,
+            "visible": true,
+            "left": 266,
+            "top": 217.609375,
             "right": 312,
-            "bottom": 331
+            "bottom": 263.609375
           },
           {
-            "id": "zonepill",
-            "left": 81.84375,
-            "top": 227,
-            "right": 238.15625,
-            "bottom": 255
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 341,
+            "top": 291.609375,
             "right": 320,
             "bottom": 400
           }
@@ -217,10 +235,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 118.1875,
-          "bottom": 217,
-          "minV": -0.147986328125,
-          "maxV": 0.19898632812499997
+          "top": 86.390625,
+          "bottom": 283.609375,
+          "minV": -0.5323857421875,
+          "maxV": 0.5833857421875
         },
         "valid": true,
         "errors": [],
@@ -247,43 +265,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 94.984375,
-            "top": 459,
-            "right": 224.984375,
-            "bottom": 493
+            "visible": true,
+            "left": 114,
+            "top": 461.609375,
+            "right": 206,
+            "bottom": 493.609375
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 385.625,
-            "right": 86.578125,
-            "bottom": 493
+            "top": 385.609375,
+            "right": 54,
+            "bottom": 431.609375
           },
           {
             "id": "btnMinion",
-            "left": 233.40625,
-            "top": 385.625,
+            "visible": true,
+            "left": 266,
+            "top": 385.609375,
             "right": 312,
-            "bottom": 493
+            "bottom": 431.609375
           },
           {
-            "id": "zonepill",
-            "left": 81.84375,
-            "top": 347.625,
-            "right": 238.15625,
-            "bottom": 375.625
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 503,
+            "top": 459.609375,
             "right": 320,
             "bottom": 568
           }
@@ -291,10 +315,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 334.625,
-          "minV": -0.57541552734375,
-          "maxV": 0.62641552734375
+          "top": 86.390625,
+          "bottom": 451.609375,
+          "minV": -1.1886357421875,
+          "maxV": 1.2396357421875
         },
         "valid": true,
         "errors": [],
@@ -321,43 +345,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 7.796875,
+            "top": 5.84375,
+            "right": 47.796875,
+            "bottom": 45.84375
           },
           {
             "id": "qty",
-            "left": 129.984375,
-            "top": 721,
-            "right": 259.984375,
-            "bottom": 755
+            "visible": true,
+            "left": 144.984375,
+            "top": 725.703125,
+            "right": 244.984375,
+            "bottom": 757.703125
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 651,
-            "right": 104.703125,
-            "bottom": 755
+            "top": 641.109375,
+            "right": 62.59375,
+            "bottom": 695.703125
           },
           {
             "id": "btnMinion",
-            "left": 285.28125,
-            "top": 651,
+            "visible": true,
+            "left": 327.40625,
+            "top": 641.109375,
             "right": 382,
-            "bottom": 755
+            "bottom": 695.703125
           },
           {
-            "id": "zonepill",
-            "left": 115.0625,
-            "top": 613,
-            "right": 274.921875,
-            "bottom": 641
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 765,
+            "top": 723.703125,
             "right": 390,
             "bottom": 844
           }
@@ -365,10 +395,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 140,
-          "bottom": 600,
-          "minV": -1.2363589743589745,
-          "maxV": 1.2873589743589744
+          "top": 92.15625,
+          "bottom": 715.703125,
+          "minV": -1.7605476762820513,
+          "maxV": 1.8115476762820513
         },
         "valid": true,
         "errors": [],
@@ -395,43 +425,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 8.59375,
+            "top": 6.4375,
+            "right": 48.59375,
+            "bottom": 46.4375
           },
           {
             "id": "qty",
-            "left": 149.984375,
-            "top": 809,
-            "right": 279.984375,
-            "bottom": 843
+            "visible": true,
+            "left": 164.984375,
+            "top": 806.90625,
+            "right": 264.984375,
+            "bottom": 838.90625
           },
           {
             "id": "btnMerge",
-            "left": 8.59375,
-            "top": 739,
-            "right": 115.328125,
-            "bottom": 843
+            "visible": true,
+            "left": 8,
+            "top": 716.71875,
+            "right": 68.1875,
+            "bottom": 776.90625
           },
           {
             "id": "btnMinion",
-            "left": 314.65625,
-            "top": 739,
-            "right": 421.40625,
-            "bottom": 843
+            "visible": true,
+            "left": 361.8125,
+            "top": 716.71875,
+            "right": 422,
+            "bottom": 776.90625
           },
           {
-            "id": "zonepill",
-            "left": 128.4375,
-            "top": 701,
-            "right": 301.546875,
-            "bottom": 729
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 853,
+            "top": 804.90625,
             "right": 430,
             "bottom": 932
           }
@@ -439,10 +475,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 140,
-          "bottom": 688,
-          "minV": -1.3550232558139534,
-          "maxV": 1.4060232558139534
+          "top": 95.453125,
+          "bottom": 796.90625,
+          "minV": -1.801107921511628,
+          "maxV": 1.8521079215116278
         },
         "valid": true,
         "errors": [],
@@ -469,43 +505,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 7.015625,
+            "top": 5.265625,
+            "right": 47.015625,
+            "bottom": 45.265625
           },
           {
             "id": "qty",
-            "left": 204.984375,
-            "top": 611,
-            "right": 334.984375,
-            "bottom": 645
+            "visible": true,
+            "left": 219.984375,
+            "top": 608.296875,
+            "right": 319.984375,
+            "bottom": 640.296875
           },
           {
             "id": "btnMerge",
-            "left": 10.796875,
-            "top": 539.8125,
-            "right": 144.84375,
-            "bottom": 645
+            "visible": true,
+            "left": 8,
+            "top": 510.296875,
+            "right": 76,
+            "bottom": 578.296875
           },
           {
             "id": "btnMinion",
-            "left": 395.140625,
-            "top": 539.8125,
-            "right": 529.1875,
-            "bottom": 645
+            "visible": true,
+            "left": 464,
+            "top": 510.296875,
+            "right": 532,
+            "bottom": 578.296875
           },
           {
-            "id": "zonepill",
-            "left": 174.703125,
-            "top": 501.8125,
-            "right": 365.296875,
-            "bottom": 529.8125
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 655,
+            "top": 606.296875,
             "right": 540,
             "bottom": 720
           }
@@ -513,10 +555,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 488.8125,
-          "minV": -0.6009395254629629,
-          "maxV": 0.6519395254629629
+          "top": 93.640625,
+          "bottom": 598.296875,
+          "minV": -0.9301857638888889,
+          "maxV": 0.9811857638888888
         },
         "valid": true,
         "errors": [],
@@ -543,43 +585,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 384,
-            "top": 144.796875,
-            "right": 514,
-            "bottom": 178.796875
+            "visible": true,
+            "left": 429,
+            "top": 52,
+            "right": 529,
+            "bottom": 84
           },
           {
             "id": "btnMerge",
-            "left": 338,
-            "top": 188.796875,
-            "right": 445,
-            "bottom": 262.796875
+            "visible": true,
+            "left": 8,
+            "top": 224,
+            "right": 76,
+            "bottom": 292
           },
           {
             "id": "btnMinion",
-            "left": 453,
-            "top": 188.796875,
-            "right": 560,
-            "bottom": 262.796875
+            "visible": true,
+            "left": 312,
+            "top": 224,
+            "right": 380,
+            "bottom": 292
           },
           {
-            "id": "zonepill",
-            "left": 338,
-            "top": 44.203125,
-            "right": 560,
-            "bottom": 72.203125
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
-            "left": 0,
-            "top": 261,
+            "visible": true,
+            "left": 388,
+            "top": 0,
             "right": 568,
             "bottom": 320
           }
@@ -587,10 +635,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 253,
-          "minV": -0.24450524009146335,
-          "maxV": 0.2955052400914633
+          "top": 92.796875,
+          "bottom": 312,
+          "minV": -0.4681956346649484,
+          "maxV": 0.5191956346649483
         },
         "valid": true,
         "errors": [],
@@ -617,43 +665,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 653.40625,
-            "top": 179.796875,
-            "right": 783.40625,
-            "bottom": 213.796875
+            "visible": true,
+            "left": 693.71875,
+            "top": 87,
+            "right": 793.71875,
+            "bottom": 119
           },
           {
             "id": "btnMerge",
-            "left": 600.8125,
-            "top": 223.796875,
-            "right": 714.40625,
-            "bottom": 297.796875
+            "visible": true,
+            "left": 8,
+            "top": 294,
+            "right": 76,
+            "bottom": 362
           },
           {
             "id": "btnMinion",
-            "left": 722.40625,
-            "top": 223.796875,
-            "right": 836,
-            "bottom": 297.796875
+            "visible": true,
+            "left": 565.453125,
+            "top": 294,
+            "right": 633.453125,
+            "bottom": 362
           },
           {
-            "id": "zonepill",
-            "left": 600.8125,
-            "top": 79.203125,
-            "right": 836,
-            "bottom": 107.203125
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
-            "left": 0,
-            "top": 331,
+            "visible": true,
+            "left": 641.453125,
+            "top": 0,
             "right": 844,
             "bottom": 390
           }
@@ -661,10 +715,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 323,
-          "minV": -0.17797244261081135,
-          "maxV": 0.22897244261081132
+          "top": 92.796875,
+          "bottom": 382,
+          "minV": -0.32557026283097457,
+          "maxV": 0.3765702628309745
         },
         "valid": true,
         "errors": [],
@@ -691,54 +745,60 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 9.59375,
+            "top": 7.1875,
+            "right": 49.59375,
+            "bottom": 47.1875
           },
           {
             "id": "qty",
-            "left": 318.984375,
-            "top": 901,
-            "right": 448.984375,
-            "bottom": 935
+            "visible": true,
+            "left": 333.984375,
+            "top": 890.40625,
+            "right": 433.984375,
+            "bottom": 922.40625
           },
           {
             "id": "btnMerge",
-            "left": 15.359375,
-            "top": 827,
-            "right": 208.046875,
-            "bottom": 935
+            "visible": true,
+            "left": 8,
+            "top": 792.40625,
+            "right": 76,
+            "bottom": 860.40625
           },
           {
             "id": "btnMinion",
-            "left": 559.9375,
-            "top": 827,
-            "right": 752.640625,
-            "bottom": 935
+            "visible": true,
+            "left": 692,
+            "top": 792.40625,
+            "right": 760,
+            "bottom": 860.40625
           },
           {
-            "id": "zonepill",
-            "left": 288.703125,
-            "top": 789,
-            "right": 479.296875,
-            "bottom": 817
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
-            "left": 0,
-            "top": 945,
-            "right": 768,
+            "visible": true,
+            "left": 24,
+            "top": 888.40625,
+            "right": 744,
             "bottom": 1024
           }
         ],
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 141.796875,
-          "bottom": 776,
-          "minV": -0.7942316487630208,
-          "maxV": 0.8452316487630207
+          "top": 99.578125,
+          "bottom": 880.40625,
+          "minV": -1.0328791097005205,
+          "maxV": 1.0838791097005205
         },
         "valid": true,
         "errors": [],
@@ -765,43 +825,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 7.796875,
+            "top": 5.84375,
+            "right": 47.796875,
+            "bottom": 45.84375
           },
           {
             "id": "qty",
-            "left": 1046,
-            "top": 382.5,
-            "right": 1176,
-            "bottom": 416.5
+            "visible": true,
+            "left": 1101,
+            "top": 265,
+            "right": 1201,
+            "bottom": 297
           },
           {
             "id": "btnMerge",
-            "left": 954,
-            "top": 430.5,
-            "right": 1107,
-            "bottom": 516.5
+            "visible": true,
+            "left": 8,
+            "top": 704,
+            "right": 76,
+            "bottom": 772
           },
           {
             "id": "btnMinion",
-            "left": 1115,
-            "top": 430.5,
-            "right": 1268,
-            "bottom": 516.5
+            "visible": true,
+            "left": 944,
+            "top": 704,
+            "right": 1012,
+            "bottom": 772
           },
           {
-            "id": "zonepill",
-            "left": 954,
-            "top": 266.5,
-            "right": 1268,
-            "bottom": 294.5
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
-            "left": 940,
-            "top": 721,
+            "visible": true,
+            "left": 1020,
+            "top": 0,
             "right": 1280,
             "bottom": 800
           }
@@ -809,10 +875,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 141.796875,
+          "top": 94.71875,
           "bottom": 792,
-          "minV": -0.6266318151595744,
-          "maxV": 0.6776318151595744
+          "minV": -0.6165113357843137,
+          "maxV": 0.6675113357843137
         },
         "valid": true,
         "errors": [],
@@ -839,43 +905,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 250,
-            "top": 8,
-            "right": 294,
-            "bottom": 52
+            "visible": true,
+            "left": 249.59375,
+            "top": 7.1875,
+            "right": 289.59375,
+            "bottom": 47.1875
           },
           {
             "id": "qty",
-            "left": 1446,
-            "top": 522.5,
-            "right": 1576,
-            "bottom": 556.5
+            "visible": true,
+            "left": 1501,
+            "top": 405,
+            "right": 1601,
+            "bottom": 437
           },
           {
             "id": "btnMerge",
-            "left": 1354,
-            "top": 570.5,
-            "right": 1507,
-            "bottom": 656.5
+            "visible": true,
+            "left": 248,
+            "top": 984,
+            "right": 316,
+            "bottom": 1052
           },
           {
             "id": "btnMinion",
-            "left": 1515,
-            "top": 570.5,
-            "right": 1668,
-            "bottom": 656.5
+            "visible": true,
+            "left": 1344,
+            "top": 984,
+            "right": 1412,
+            "bottom": 1052
           },
           {
-            "id": "zonepill",
-            "left": 1354,
-            "top": 406.5,
-            "right": 1668,
-            "bottom": 434.5
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
-            "left": 1340,
-            "top": 1001,
+            "visible": true,
+            "left": 1420,
+            "top": 0,
             "right": 1680,
             "bottom": 1080
           }
@@ -883,10 +955,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 141.796875,
+          "top": 99.578125,
           "bottom": 1072,
-          "minV": -0.8190490056818183,
-          "maxV": 0.8700490056818182
+          "minV": -0.7921079184322033,
+          "maxV": 0.8431079184322032
         },
         "valid": true,
         "errors": [],
@@ -913,43 +985,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 64,
-            "right": 54,
-            "bottom": 108
+            "visible": true,
+            "left": 7.359375,
+            "top": 61.515625,
+            "right": 47.359375,
+            "bottom": 101.515625
           },
           {
             "id": "qty",
-            "left": 129.984375,
-            "top": 687,
-            "right": 259.984375,
-            "bottom": 721
+            "visible": true,
+            "left": 144.984375,
+            "top": 695.453125,
+            "right": 244.984375,
+            "bottom": 727.453125
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 617,
-            "right": 104.703125,
-            "bottom": 721
+            "top": 610.859375,
+            "right": 62.59375,
+            "bottom": 665.453125
           },
           {
             "id": "btnMinion",
-            "left": 285.28125,
-            "top": 617,
+            "visible": true,
+            "left": 327.40625,
+            "top": 610.859375,
             "right": 382,
-            "bottom": 721
+            "bottom": 665.453125
           },
           {
-            "id": "zonepill",
-            "left": 115.0625,
-            "top": 579,
-            "right": 274.921875,
-            "bottom": 607
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 731,
+            "top": 693.453125,
             "right": 390,
             "bottom": 810
           }
@@ -957,10 +1035,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 196,
-          "bottom": 566,
-          "minV": -0.9478974358974359,
-          "maxV": 0.9988974358974358
+          "top": 146.34375,
+          "bottom": 685.453125,
+          "minV": -1.4899146634615386,
+          "maxV": 1.5409146634615385
         },
         "valid": true,
         "errors": [],
@@ -988,43 +1066,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 10,
-            "top": 8,
-            "right": 54,
-            "bottom": 52
+            "visible": true,
+            "left": 6.390625,
+            "top": 4.796875,
+            "right": 46.390625,
+            "bottom": 44.796875
           },
           {
             "id": "qty",
-            "left": 129.984375,
-            "top": 427,
-            "right": 259.984375,
-            "bottom": 461
+            "visible": true,
+            "left": 144.984375,
+            "top": 423.609375,
+            "right": 244.984375,
+            "bottom": 455.609375
           },
           {
             "id": "btnMerge",
+            "visible": true,
             "left": 8,
-            "top": 365.984375,
-            "right": 104.703125,
-            "bottom": 461
+            "top": 339.015625,
+            "right": 62.59375,
+            "bottom": 393.609375
           },
           {
             "id": "btnMinion",
-            "left": 285.28125,
-            "top": 365.984375,
+            "visible": true,
+            "left": 327.40625,
+            "top": 339.015625,
             "right": 382,
-            "bottom": 461
+            "bottom": 393.609375
           },
           {
-            "id": "zonepill",
-            "left": 115.0625,
-            "top": 329.984375,
-            "right": 274.921875,
-            "bottom": 357.984375
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
+            "visible": true,
             "left": 0,
-            "top": 471,
+            "top": 421.609375,
             "right": 390,
             "bottom": 530
           }
@@ -1032,10 +1116,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 126.390625,
-          "bottom": 319.984375,
-          "minV": -0.38249278846153845,
-          "maxV": 0.4334927884615384
+          "top": 86.390625,
+          "bottom": 413.609375,
+          "minV": -0.810778044871795,
+          "maxV": 0.8617780448717949
         },
         "valid": true,
         "errors": [],
@@ -1062,43 +1146,49 @@
         "controls": [
           {
             "id": "btnSettings",
-            "left": 54,
-            "top": 32,
-            "right": 98,
-            "bottom": 76
+            "visible": true,
+            "left": 50.390625,
+            "top": 28.796875,
+            "right": 90.390625,
+            "bottom": 68.796875
           },
           {
             "id": "qty",
-            "left": 609.40625,
-            "top": 181.296875,
-            "right": 739.40625,
-            "bottom": 215.296875
+            "visible": true,
+            "left": 649.71875,
+            "top": 88.5,
+            "right": 749.71875,
+            "bottom": 120.5
           },
           {
             "id": "btnMerge",
-            "left": 556.8125,
-            "top": 225.296875,
-            "right": 670.40625,
-            "bottom": 299.296875
+            "visible": true,
+            "left": 52,
+            "top": 273,
+            "right": 120,
+            "bottom": 341
           },
           {
             "id": "btnMinion",
-            "left": 678.40625,
-            "top": 225.296875,
-            "right": 792,
-            "bottom": 299.296875
+            "visible": true,
+            "left": 521.453125,
+            "top": 273,
+            "right": 589.453125,
+            "bottom": 341
           },
           {
-            "id": "zonepill",
-            "left": 556.8125,
-            "top": 80.703125,
-            "right": 792,
-            "bottom": 108.703125
+            "id": "btnZone",
+            "visible": false,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
           },
           {
             "id": "nav",
-            "left": 44,
-            "top": 310,
+            "visible": true,
+            "left": 597.453125,
+            "top": 24,
             "right": 800,
             "bottom": 369
           }
@@ -1106,10 +1196,10 @@
         "gap": 10,
         "qtyClickable": true,
         "floor": {
-          "top": 150.390625,
-          "bottom": 302,
-          "minV": -0.1389033561218148,
-          "maxV": 0.18990335612181478
+          "top": 116.796875,
+          "bottom": 361,
+          "minV": -0.3135442816408345,
+          "maxV": 0.3645442816408344
         },
         "valid": true,
         "errors": [],

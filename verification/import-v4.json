@@ -1,0 +1,12 @@
+{
+  "importedAt": "2026-10-11T17:54:22.304064+00:00",
+  "incomingFile": "Монетный_Двор_—_идл_про_монетки_4.html",
+  "incomingSha256": "5d1054e1f4246f8f65a6da244ad170a52b8ee04f4667509fc9087d32d1f43853",
+  "incomingBytes": 212944,
+  "incomingEconomySha256": "b6a32c68a2df1c48caf9a9cc38d69867e3b1ee00c9d99b1bc513de36bcf541de",
+  "workingEconomySha256": "b6a32c68a2df1c48caf9a9cc38d69867e3b1ee00c9d99b1bc513de36bcf541de",
+  "economyMatchesIncoming": true,
+  "saveKeyRetained": "mintcoin_save_v1",
+  "cloudKeysRetained": "sn, s0…",
+  "newQuestSchema": 2
+}
