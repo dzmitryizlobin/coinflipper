@@ -1,0 +1,75 @@
+{
+  "v": 1,
+  "money": 0,
+  "gems": 10,
+  "tokens": 0,
+  "bars": 0,
+  "barsTotal": 0,
+  "lvl": 1,
+  "xp": 0,
+  "content": {
+    "version": 1,
+    "journey": {},
+    "sets": {},
+    "peakMinions": 0
+  },
+  "run": {
+    "zone": 1,
+    "bought": 0,
+    "minions": 0,
+    "upg": {},
+    "coins": [
+      0,
+      0
+    ],
+    "earned": 0,
+    "started": 0
+  },
+  "perks": {},
+  "maxZoneEver": 1,
+  "hats": {
+    "0": 1
+  },
+  "hatEq": -1,
+  "capsules": 0,
+  "disc": {
+    "0": 1
+  },
+  "stats": {
+    "flips": 0,
+    "heads": 0,
+    "edges": 0,
+    "merges": 0,
+    "taps": 0,
+    "total": 0,
+    "play": 0,
+    "prestiges": 0,
+    "lucky": 0,
+    "bought": 0
+  },
+  "daily": {
+    "last": "",
+    "streak": 0,
+    "club": ""
+  },
+  "quests": {
+    "day": "",
+    "list": []
+  },
+  "boostUntil": 0,
+  "purchases": {},
+  "clubUntil": 0,
+  "ads": {
+    "day": "",
+    "n": 0
+  },
+  "settings": {
+    "sound": true,
+    "haptic": true
+  },
+  "lastSeen": 0,
+  "savedAt": 0,
+  "tut": 0,
+  "qtyMax": false,
+  "ref": null
+}

@@ -1,0 +1,481 @@
+{
+  "executedAt": "2026-10-11T13:04:27.685Z",
+  "browser": "154.0.8037.99",
+  "isolation": "Fresh contexts; local HTML route; external SDKs and API blocked; no real Telegram account",
+  "tests": 40,
+  "passed": 40,
+  "failed": 0,
+  "results": [
+    {
+      "id": "boot",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "money": 0,
+        "gems": 10,
+        "lvl": 1,
+        "tiers": [
+          0,
+          0
+        ],
+        "capacity": 6,
+        "price": 3,
+        "baseMult": 1.02
+      }
+    },
+    {
+      "id": "heads-tails-edge",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "a": [
+          1,
+          0,
+          1
+        ],
+        "b": [
+          1,
+          1,
+          2
+        ],
+        "c": [
+          11,
+          1,
+          8
+        ],
+        "flips": 3
+      }
+    },
+    {
+      "id": "real-pointer-tap",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "taps": 1,
+        "flips": 1,
+        "xp": 1
+      }
+    },
+    {
+      "id": "level-unlocks",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "a": {
+          "lvl": 2,
+          "gems": 13,
+          "merge": true,
+          "minions": false
+        },
+        "b": {
+          "lvl": 3,
+          "gems": 16,
+          "minions": true
+        }
+      }
+    },
+    {
+      "id": "buy-capacity",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "count": 6,
+        "bought": 4,
+        "money": 986
+      }
+    },
+    {
+      "id": "merge-normal",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "tiers": [
+          1
+        ],
+        "merges": 1,
+        "xp": 1,
+        "discovered": 2
+      }
+    },
+    {
+      "id": "merge-button",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "tiers": [
+          1
+        ],
+        "flyers": 0
+      }
+    },
+    {
+      "id": "minion-income",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "minions": 1,
+        "flips": 25,
+        "earned": 13,
+        "xp": 6.25,
+        "idle": 0.19615384615384615
+      }
+    },
+    {
+      "id": "auto-needs-full-and-money",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "before": 6,
+        "noMoney": 6,
+        "withMoney": 5
+      }
+    },
+    {
+      "id": "zone-keeps-run",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "money": 500,
+        "zone": 2,
+        "cap": 9,
+        "bought": 7,
+        "coins": 2,
+        "mult": 5
+      }
+    },
+    {
+      "id": "prestige-threshold-and-retention",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "pending": 3,
+        "bars": 3,
+        "total": 3,
+        "money": 0,
+        "zone": 1,
+        "minions": 2,
+        "press": 1,
+        "lvl": 7,
+        "gems": 77,
+        "tokens": 123,
+        "x2": 1,
+        "boost": true
+      }
+    },
+    {
+      "id": "perk-spend-retains-total",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "bars": 7,
+        "total": 10,
+        "level": 1,
+        "mult": 5.355
+      }
+    },
+    {
+      "id": "save-load-roundtrip",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "money": 1234,
+        "gems": 88,
+        "lvl": 7,
+        "press": 2,
+        "tiers": [
+          5,
+          0
+        ]
+      }
+    },
+    {
+      "id": "capsule-and-duplicate",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "a": {
+          "tokens": 80,
+          "capsules": 1,
+          "gems": 10,
+          "hats": 2
+        },
+        "b": {
+          "tokens": 56,
+          "capsules": 2,
+          "gems": 13,
+          "hats": 2
+        }
+      }
+    },
+    {
+      "id": "daily-once",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "gems": 15,
+        "tokens": 10,
+        "streak": 1,
+        "canClaim": false
+      }
+    },
+    {
+      "id": "quest-once",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "claimed": 1,
+        "gems": 18,
+        "reward": 8
+      }
+    },
+    {
+      "id": "lucky-reward-branches",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": [
+        {
+          "gems": 10,
+          "money": 0,
+          "frenzy": true
+        },
+        {
+          "gems": 10,
+          "money": 50,
+          "frenzy": true
+        },
+        {
+          "gems": 13,
+          "money": 50,
+          "frenzy": true
+        }
+      ]
+    },
+    {
+      "id": "gem-shop",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "gems": 105,
+        "tokens": 50,
+        "money": 100,
+        "boost": true,
+        "lucky": true
+      }
+    },
+    {
+      "id": "offline-cap",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "rate": 0.19615384615384615,
+        "earned": 1412.3076923076924,
+        "expected": 1412.3076923076924
+      }
+    },
+    {
+      "id": "offline-club-cap",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "earned": 7414.615384615385,
+        "expected": 7414.615384615385
+      }
+    },
+    {
+      "id": "B01-vip-unlimited-gems",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "gems": 510,
+        "ads": 20
+      }
+    },
+    {
+      "id": "B02-offline-ad-limit-loses-reward",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "offered": "С возвращением!Пока тебя не было 1ч 0м, бригада заработала:706Забрать×2 за рекламу",
+        "money": 0,
+        "modal": false,
+        "savedMoney": 0
+      }
+    },
+    {
+      "id": "B03-max-tier-overflow",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "pairsBefore": 0,
+        "tiers": [
+          60
+        ],
+        "max": 59
+      }
+    },
+    {
+      "id": "B04-overlapping-merge-jobs",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "jobs": 3,
+        "tiers": [
+          0,
+          2
+        ],
+        "states": [
+          "fly",
+          "ground"
+        ],
+        "merges": 2
+      }
+    },
+    {
+      "id": "B05-null-save-crashes",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": "TypeError: Cannot read properties of null (reading 'flips')"
+    },
+    {
+      "id": "B06-negative-values-accepted",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "money": -500,
+        "gems": -7,
+        "tiers": [
+          99
+        ]
+      }
+    },
+    {
+      "id": "B07-grant-replay",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "gems": 250
+      }
+    },
+    {
+      "id": "B08-claim-not-durable",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "live": {
+          "gems": 40,
+          "vip": true
+        },
+        "saved": {
+          "gems": 10,
+          "vip": false
+        }
+      }
+    },
+    {
+      "id": "B09-demo-ad-inside-telegram",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "demo": true,
+        "busy": true,
+        "overlay": true
+      }
+    },
+    {
+      "id": "B10-capacity-over-declared-limit",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "before": 32,
+        "after": 33,
+        "declared": 32,
+        "upgradeLimit": 15
+      }
+    },
+    {
+      "id": "B11-reset-keeps-transient-state",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "savedQty": false,
+        "liveQty": true,
+        "frenzy": true
+      }
+    },
+    {
+      "id": "B12-soft-refresh-can-be-lost",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "money": 12,
+        "buttonDisabled": true,
+        "signatureCurrent": true
+      }
+    },
+    {
+      "id": "B13-no-valid-floor-landscape",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "top": 140,
+        "bottom": 185,
+        "vMax": 0.10817307692307693,
+        "diameter": 44.2,
+        "minV": 0.09582692307692309,
+        "maxV": -0.0023269230769230875
+      }
+    },
+    {
+      "id": "B14-name-html-injection",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "injected": true
+      }
+    },
+    {
+      "id": "B15-reset-removes-starter-hat",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "ownedStarter": true,
+        "hat": false,
+        "gems": 10
+      }
+    },
+    {
+      "id": "B16-ad-failure-offline",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "money": 0,
+        "modal": false,
+        "busy": false
+      }
+    },
+    {
+      "id": "initial-mobile",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "initial-small",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "initial-desktop",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "advanced-screens",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    }
+  ]
+}

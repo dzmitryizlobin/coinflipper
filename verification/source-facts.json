@@ -1,0 +1,2102 @@
+{
+  "source": "index.html",
+  "sha256": "975d07f426b58a60c6d1e46a68519a77bb70d5a355927f7f91d2d35faf6bf800",
+  "bytes": 190373,
+  "lines": 2506,
+  "inlineScripts": 2,
+  "functions": [
+    {
+      "name": "denom",
+      "line": 382
+    },
+    {
+      "name": "tierPal",
+      "line": 416
+    },
+    {
+      "name": "tierName",
+      "line": 417
+    },
+    {
+      "name": "zoneInfo",
+      "line": 432
+    },
+    {
+      "name": "zoneName",
+      "line": 433
+    },
+    {
+      "name": "zoneMult",
+      "line": 438
+    },
+    {
+      "name": "zoneCost",
+      "line": 439
+    },
+    {
+      "name": "capBase",
+      "line": 440
+    },
+    {
+      "name": "capMax",
+      "line": 441
+    },
+    {
+      "name": "minionCap",
+      "line": 442
+    },
+    {
+      "name": "pressCap",
+      "line": 443
+    },
+    {
+      "name": "coinPrice",
+      "line": 447
+    },
+    {
+      "name": "minionPrice",
+      "line": 448
+    },
+    {
+      "name": "upgPrice",
+      "line": 475
+    },
+    {
+      "name": "upgMax",
+      "line": 476
+    },
+    {
+      "name": "barsFor",
+      "line": 484
+    },
+    {
+      "name": "perkPrice",
+      "line": 496
+    },
+    {
+      "name": "cycleTime",
+      "line": 499
+    },
+    {
+      "name": "headsChance",
+      "line": 500
+    },
+    {
+      "name": "headsMult",
+      "line": 501
+    },
+    {
+      "name": "edgeChance",
+      "line": 502
+    },
+    {
+      "name": "offlineHours",
+      "line": 504
+    },
+    {
+      "name": "tapMult",
+      "line": 505
+    },
+    {
+      "name": "expectedFlip",
+      "line": 507
+    },
+    {
+      "name": "tierWeight",
+      "line": 516
+    },
+    {
+      "name": "minionFlipValue",
+      "line": 517
+    },
+    {
+      "name": "xpNeed",
+      "line": 531
+    },
+    {
+      "name": "levelGems",
+      "line": 532
+    },
+    {
+      "name": "capsulePrice",
+      "line": 535
+    },
+    {
+      "name": "fmt",
+      "line": 540
+    },
+    {
+      "name": "fmtMul",
+      "line": 553
+    },
+    {
+      "name": "zoneStory",
+      "line": 710
+    },
+    {
+      "name": "ensureContent",
+      "line": 711
+    },
+    {
+      "name": "journeyValue",
+      "line": 717
+    },
+    {
+      "name": "currentJourney",
+      "line": 724
+    },
+    {
+      "name": "claimJourney",
+      "line": 725
+    },
+    {
+      "name": "hatSetCount",
+      "line": 733
+    },
+    {
+      "name": "claimHatSet",
+      "line": 734
+    },
+    {
+      "name": "showJourney",
+      "line": 742
+    },
+    {
+      "name": "tabJourney",
+      "line": 743
+    },
+    {
+      "name": "appendHatSets",
+      "line": 760
+    },
+    {
+      "name": "showCoinStory",
+      "line": 772
+    },
+    {
+      "name": "rnd",
+      "line": 780
+    },
+    {
+      "name": "clamp",
+      "line": 781
+    },
+    {
+      "name": "lerp",
+      "line": 782
+    },
+    {
+      "name": "now",
+      "line": 783
+    },
+    {
+      "name": "today",
+      "line": 784
+    },
+    {
+      "name": "$",
+      "line": 785
+    },
+    {
+      "name": "el",
+      "line": 786
+    },
+    {
+      "name": "mmss",
+      "line": 787
+    },
+    {
+      "name": "hashStr",
+      "line": 788
+    },
+    {
+      "name": "newRunState",
+      "line": 791
+    },
+    {
+      "name": "defaultState",
+      "line": 800
+    },
+    {
+      "name": "R",
+      "line": 813
+    },
+    {
+      "name": "L",
+      "line": 814
+    },
+    {
+      "name": "P",
+      "line": 815
+    },
+    {
+      "name": "hasClub",
+      "line": 816
+    },
+    {
+      "name": "vip",
+      "line": 817
+    },
+    {
+      "name": "capacity",
+      "line": 820
+    },
+    {
+      "name": "cycleTime",
+      "line": 821
+    },
+    {
+      "name": "hatsOwnedBonus",
+      "line": 822
+    },
+    {
+      "name": "discCount",
+      "line": 823
+    },
+    {
+      "name": "baseMult",
+      "line": 825
+    },
+    {
+      "name": "valueMult",
+      "line": 830
+    },
+    {
+      "name": "roundNom",
+      "line": 833
+    },
+    {
+      "name": "coinValue",
+      "line": 839
+    },
+    {
+      "name": "boostMult",
+      "line": 840
+    },
+    {
+      "name": "headsP",
+      "line": 841
+    },
+    {
+      "name": "edgeP",
+      "line": 842
+    },
+    {
+      "name": "idleIncome",
+      "line": 844
+    },
+    {
+      "name": "pendingBars",
+      "line": 849
+    },
+    {
+      "name": "unlocked",
+      "line": 850
+    },
+    {
+      "name": "prestigeUnlocked",
+      "line": 851
+    },
+    {
+      "name": "serialize",
+      "line": 854
+    },
+    {
+      "name": "mergeLoaded",
+      "line": 860
+    },
+    {
+      "name": "saveLocal",
+      "line": 867
+    },
+    {
+      "name": "loadLocal",
+      "line": 868
+    },
+    {
+      "name": "saveAll",
+      "line": 870
+    },
+    {
+      "name": "ensure",
+      "line": 1026
+    },
+    {
+      "name": "tone",
+      "line": 1027
+    },
+    {
+      "name": "syncViewport",
+      "line": 1066
+    },
+    {
+      "name": "scheduleResize",
+      "line": 1083
+    },
+    {
+      "name": "resize",
+      "line": 1084
+    },
+    {
+      "name": "updateExcl",
+      "line": 1102
+    },
+    {
+      "name": "floorOK",
+      "line": 1112
+    },
+    {
+      "name": "clampFloor",
+      "line": 1118
+    },
+    {
+      "name": "tri",
+      "line": 1119
+    },
+    {
+      "name": "zoneCoinR",
+      "line": 1120
+    },
+    {
+      "name": "toScreen",
+      "line": 1121
+    },
+    {
+      "name": "toTable",
+      "line": 1122
+    },
+    {
+      "name": "coinPx",
+      "line": 1123
+    },
+    {
+      "name": "fitCoinsToFloor",
+      "line": 1125
+    },
+    {
+      "name": "freeSpot",
+      "line": 1129
+    },
+    {
+      "name": "nearFree",
+      "line": 1147
+    },
+    {
+      "name": "makeCoin",
+      "line": 1160
+    },
+    {
+      "name": "rebuildWorld",
+      "line": 1165
+    },
+    {
+      "name": "addMinion",
+      "line": 1173
+    },
+    {
+      "name": "pickHat",
+      "line": 1180
+    },
+    {
+      "name": "rehat",
+      "line": 1185
+    },
+    {
+      "name": "chooseTarget",
+      "line": 1188
+    },
+    {
+      "name": "updateMinion",
+      "line": 1204
+    },
+    {
+      "name": "flipCoin",
+      "line": 1233
+    },
+    {
+      "name": "landCoin",
+      "line": 1252
+    },
+    {
+      "name": "earn",
+      "line": 1282
+    },
+    {
+      "name": "canMerge",
+      "line": 1285
+    },
+    {
+      "name": "mergeCoins",
+      "line": 1286
+    },
+    {
+      "name": "pairs",
+      "line": 1299
+    },
+    {
+      "name": "mergeAllPairs",
+      "line": 1305
+    },
+    {
+      "name": "flyMerge",
+      "line": 1320
+    },
+    {
+      "name": "mergeLowestPair",
+      "line": 1321
+    },
+    {
+      "name": "coinPrice",
+      "line": 1329
+    },
+    {
+      "name": "tableFull",
+      "line": 1330
+    },
+    {
+      "name": "buyCoin",
+      "line": 1331
+    },
+    {
+      "name": "doBuy",
+      "line": 1341
+    },
+    {
+      "name": "buyMinion",
+      "line": 1351
+    },
+    {
+      "name": "buyUpgrade",
+      "line": 1363
+    },
+    {
+      "name": "zoneUp",
+      "line": 1373
+    },
+    {
+      "name": "doPrestige",
+      "line": 1391
+    },
+    {
+      "name": "buyPerk",
+      "line": 1401
+    },
+    {
+      "name": "addXP",
+      "line": 1416
+    },
+    {
+      "name": "discover",
+      "line": 1428
+    },
+    {
+      "name": "ensureQuests",
+      "line": 1433
+    },
+    {
+      "name": "quest",
+      "line": 1441
+    },
+    {
+      "name": "scheduleLucky",
+      "line": 1447
+    },
+    {
+      "name": "spawnLucky",
+      "line": 1448
+    },
+    {
+      "name": "catchLucky",
+      "line": 1452
+    },
+    {
+      "name": "burst",
+      "line": 1465
+    },
+    {
+      "name": "puff",
+      "line": 1472
+    },
+    {
+      "name": "ring",
+      "line": 1473
+    },
+    {
+      "name": "floatText",
+      "line": 1474
+    },
+    {
+      "name": "shade",
+      "line": 1482
+    },
+    {
+      "name": "mixHex",
+      "line": 1488
+    },
+    {
+      "name": "floorColors",
+      "line": 1493
+    },
+    {
+      "name": "drawZoneScenery",
+      "line": 1498
+    },
+    {
+      "name": "paintMintMark",
+      "line": 1544
+    },
+    {
+      "name": "buildTable",
+      "line": 1561
+    },
+    {
+      "name": "paintCoin",
+      "line": 1578
+    },
+    {
+      "name": "coinSprite",
+      "line": 1627
+    },
+    {
+      "name": "drawCoinGround",
+      "line": 1640
+    },
+    {
+      "name": "shadow",
+      "line": 1645
+    },
+    {
+      "name": "drawMinion",
+      "line": 1649
+    },
+    {
+      "name": "easeBack",
+      "line": 1694
+    },
+    {
+      "name": "roundRect",
+      "line": 1695
+    },
+    {
+      "name": "hatFill",
+      "line": 1696
+    },
+    {
+      "name": "drawHat",
+      "line": 1702
+    },
+    {
+      "name": "star",
+      "line": 1741
+    },
+    {
+      "name": "render",
+      "line": 1744
+    },
+    {
+      "name": "drawEdgeCoin",
+      "line": 1856
+    },
+    {
+      "name": "easeOutQuad",
+      "line": 1866
+    },
+    {
+      "name": "update",
+      "line": 1873
+    },
+    {
+      "name": "loop",
+      "line": 1914
+    },
+    {
+      "name": "hitCoin",
+      "line": 1924
+    },
+    {
+      "name": "hitLucky",
+      "line": 1934
+    },
+    {
+      "name": "endDrag",
+      "line": 1959
+    },
+    {
+      "name": "tapFlip",
+      "line": 1983
+    },
+    {
+      "name": "gemSVG",
+      "line": 2016
+    },
+    {
+      "name": "coinIcon",
+      "line": 2018
+    },
+    {
+      "name": "drawCoinTo",
+      "line": 2027
+    },
+    {
+      "name": "cashImg",
+      "line": 2028
+    },
+    {
+      "name": "barSVG",
+      "line": 2029
+    },
+    {
+      "name": "minionIcon",
+      "line": 2030
+    },
+    {
+      "name": "setupStaticUI",
+      "line": 2047
+    },
+    {
+      "name": "refreshUI",
+      "line": 2084
+    },
+    {
+      "name": "tabSig",
+      "line": 2152
+    },
+    {
+      "name": "pulse",
+      "line": 2160
+    },
+    {
+      "name": "shakeEl",
+      "line": 2161
+    },
+    {
+      "name": "toast",
+      "line": 2162
+    },
+    {
+      "name": "updateHint",
+      "line": 2164
+    },
+    {
+      "name": "openTab",
+      "line": 2179
+    },
+    {
+      "name": "closeAll",
+      "line": 2192
+    },
+    {
+      "name": "renderTab",
+      "line": 2199
+    },
+    {
+      "name": "priceBtn",
+      "line": 2210
+    },
+    {
+      "name": "tabUpgrades",
+      "line": 2216
+    },
+    {
+      "name": "tabPrestige",
+      "line": 2233
+    },
+    {
+      "name": "tabCollection",
+      "line": 2257
+    },
+    {
+      "name": "maxDisc",
+      "line": 2297
+    },
+    {
+      "name": "openCapsule",
+      "line": 2298
+    },
+    {
+      "name": "tabShop",
+      "line": 2311
+    },
+    {
+      "name": "shopCard",
+      "line": 2338
+    },
+    {
+      "name": "gemBuy",
+      "line": 2346
+    },
+    {
+      "name": "modal",
+      "line": 2358
+    },
+    {
+      "name": "queueModal",
+      "line": 2359
+    },
+    {
+      "name": "closeModal",
+      "line": 2360
+    },
+    {
+      "name": "showZone",
+      "line": 2367
+    },
+    {
+      "name": "showDaily",
+      "line": 2377
+    },
+    {
+      "name": "showQuests",
+      "line": 2393
+    },
+    {
+      "name": "showInvite",
+      "line": 2407
+    },
+    {
+      "name": "showBoost",
+      "line": 2412
+    },
+    {
+      "name": "showSettings",
+      "line": 2419
+    },
+    {
+      "name": "showOffline",
+      "line": 2435
+    },
+    {
+      "name": "applyTheme",
+      "line": 2446
+    },
+    {
+      "name": "boot",
+      "line": 2458
+    },
+    {
+      "name": "start",
+      "line": 2492
+    }
+  ],
+  "content": {
+    "version": 1,
+    "zones": [
+      {
+        "chapter": "Всё начинается с мелочи",
+        "icon": "☕",
+        "colors": [
+          "#f1dfc0",
+          "#e2c598",
+          "#c8a16e"
+        ],
+        "desc": "Две монетки, кружка остывшего чая и большой план. Преврати кухонный стол в свою первую мастерскую.",
+        "voice": "Не всякая решка — неудача. Жетоны нам ещё пригодятся."
+      },
+      {
+        "chapter": "Сдача остаётся тебе",
+        "icon": "🍹",
+        "colors": [
+          "#ead0ac",
+          "#cf9e73",
+          "#ac754f"
+        ],
+        "desc": "За стойкой всегда звенит мелочь. Бармен уступил тебе уголок: бригада работает, пока город отдыхает.",
+        "voice": "Здесь заказывают по одной, а монетки покупают пачками."
+      },
+      {
+        "chapter": "Свои люди",
+        "icon": "🎲",
+        "colors": [
+          "#c3ddd2",
+          "#8bbcad",
+          "#659e90"
+        ],
+        "desc": "За неприметной дверью собираются лучшие чеканщики города. Здесь впервые заговорят о твоей Копилке.",
+        "voice": "Наш пароль простой: орёл. Хотя решку тоже принимаем."
+      },
+      {
+        "chapter": "На зелёном сукне",
+        "icon": "♠",
+        "colors": [
+          "#b0d4bc",
+          "#6da58c",
+          "#467968"
+        ],
+        "desc": "Фортуна любит звонкую компанию. Под светом ламп даже обычный медяк чувствует себя золотым.",
+        "voice": "Главная ставка — на собственную бригаду."
+      },
+      {
+        "chapter": "За семью замками",
+        "icon": "🔐",
+        "colors": [
+          "#d7e3eb",
+          "#a7becd",
+          "#7b95ab"
+        ],
+        "desc": "Стальная дверь закрывается с гулом. В твоём распоряжении целый сейф — и достаточно места для больших замыслов.",
+        "voice": "Пароль от сейфа? Мы записали его на самой маленькой монетке."
+      },
+      {
+        "chapter": "Королевский заказ",
+        "icon": "👑",
+        "colors": [
+          "#e6cbd6",
+          "#c19aa9",
+          "#966c83"
+        ],
+        "desc": "Казначей ждёт безупречной чеканки. Расстели бархат и докажи, что твой двор достоин королевской печати.",
+        "voice": "Корону можно носить. Но каска всё-таки надёжнее."
+      },
+      {
+        "chapter": "Звон семи морей",
+        "icon": "🧭",
+        "colors": [
+          "#e1ceb0",
+          "#bb9b72",
+          "#94734f"
+        ],
+        "desc": "Корабль поскрипывает, сундуки пахнут солью. У каждой монеты в трюме своя история, и теперь ты её продолжишь.",
+        "voice": "Если монетка упала за борт, это вклад в морскую экономику."
+      },
+      {
+        "chapter": "Горячая чеканка",
+        "icon": "🔥",
+        "colors": [
+          "#d2c9d4",
+          "#ada0b3",
+          "#827489"
+        ],
+        "desc": "Дракон разрешил работать рядом с сокровищами. Только не путай его золото со своим и не оставляй пресс у огня.",
+        "voice": "Начальник сегодня не в духе. Зато печь уже разогрета."
+      },
+      {
+        "chapter": "Мелочь невесомости",
+        "icon": "🌙",
+        "colors": [
+          "#e0e3f4",
+          "#b7c1df",
+          "#919bc3"
+        ],
+        "desc": "За иллюминатором тихо проплывает Земля. Здесь ценят точный бросок и монеты, которых ещё никто не видел.",
+        "voice": "На Луне решка звучит тише. Доход — как обычно."
+      },
+      {
+        "chapter": "Твой знак среди звёзд",
+        "icon": "✦",
+        "colors": [
+          "#ddd7f2",
+          "#b4a7d5",
+          "#8e80b6"
+        ],
+        "desc": "Ты начинал с кухонного стола. Теперь твоя печать появляется на монетах целых созвездий. Время поставить новый рекорд.",
+        "voice": "Мастер, следующая смена уже летит с Андромеды."
+      }
+    ],
+    "coinLore": [
+      "Тёплый медяк из кармана старого фартука. С него начинается каждый большой монетный двор.",
+      "Латунь любит блеск. Миньоны натирают её рукавом перед каждым важным броском.",
+      "Серебряная монета звенит так чисто, что бригада по ней сверяет начало смены.",
+      "Первое настоящее золото. Такую монету приятно заработать и жалко тратить.",
+      "Платина не любит спешки. На её холодной поверхности видна каждая линия чеканки.",
+      "Нефритовый круг приносит спокойствие даже тогда, когда весь стол занят.",
+      "В рубиновом сплаве прячется искра. После удачного броска она вспыхивает чуть ярче.",
+      "Сапфир хранит цвет глубокого моря. Пираты узнают эту монету даже в темноте трюма.",
+      "Аметист отражает свет ночной мастерской. Говорят, его рисунок придумал уснувший чеканщик.",
+      "Изумрудная монета холодит ладонь. Её долго искали в старой королевской казне.",
+      "Внутри янтаря застыл солнечный луч. Бригада бережёт его для пасмурных смен.",
+      "Обсидиан выкован у драконьего очага. Чёрный блеск выдаёт монету раньше звона.",
+      "Опал переливается, как масло на воде. Ни один мастер не видел двух одинаковых бликов.",
+      "Жемчуг пережил долгий путь по морю. На гурте осталась едва заметная солёная искра.",
+      "Алмазная чеканка требует терпения. Зато такую монету не спутаешь ни с какой другой.",
+      "Метеорит остыл раньше, чем у мира появилось имя. Теперь у него есть номинал.",
+      "Солнечную монету чеканят на рассвете. Вечером она всё ещё хранит немного тепла.",
+      "Лунный сплав отливает тихим серебром. Идеальная монета для самой поздней смены.",
+      "Звёздная печать заметна издалека. Именно её ищут коллекционеры дальних станций.",
+      "В Туманности смешались цвета ещё не открытых миров. Бригада зовёт её карманным космосом.",
+      "Пульсар отбивает ровный ритм. Даже самые сонные миньоны рядом с ним держат темп.",
+      "Квазар светится изнутри. Для него пришлось заказать пресс с особенно крепкими ручками.",
+      "Сингулярность подозрительно тяжёлая для своего размера. Не оставляй её рядом с ключами.",
+      "Абсолют — подпись мастера, которому стало тесно в обычной мастерской. Следующий круг начинается с тебя."
+    ],
+    "hatSets": [
+      {
+        "id": "shift",
+        "name": "Золотая смена",
+        "desc": "Три каски для тех, на ком держится весь двор.",
+        "icon": "⛑️",
+        "hats": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "gentlemen",
+        "name": "Высшая проба",
+        "desc": "Цилиндры безупречны. Манеры бригады — почти.",
+        "icon": "🎩",
+        "hats": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "royal",
+        "name": "Королевский подряд",
+        "desc": "Три короны и ни одного спора, кто здесь главный.",
+        "icon": "👑",
+        "hats": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": "frontier",
+        "name": "Дикий номинал",
+        "desc": "Самые быстрые броски по эту сторону стойки.",
+        "icon": "🤠",
+        "hats": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "id": "magic",
+        "name": "Академия чеканки",
+        "desc": "Немного магии и очень много честной работы.",
+        "icon": "🧙",
+        "hats": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": "night",
+        "name": "Ночная бригада",
+        "desc": "Тёплые шапки для больших планов после полуночи.",
+        "icon": "🧶",
+        "hats": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "id": "pirates",
+        "name": "Капитаны сдачи",
+        "desc": "Семь морей, три треуголки, один общий сундук.",
+        "icon": "🏴‍☠️",
+        "hats": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "id": "bunny",
+        "name": "Ушастый резерв",
+        "desc": "Слышат звон монетки раньше, чем она упадёт.",
+        "icon": "🐰",
+        "hats": [
+          21,
+          22,
+          23
+        ]
+      }
+    ],
+    "journey": [
+      {
+        "id": "first_ring",
+        "name": "Первый звон",
+        "text": "Сделай 10 тапов по монетам.",
+        "story": "Мастерская ещё пуста, но у большого дела уже появился свой звук.",
+        "metric": "taps",
+        "goal": 10,
+        "gems": 2,
+        "tokens": 10
+      },
+      {
+        "id": "small_change",
+        "name": "Оборотная мелочь",
+        "text": "Купи 3 монеты за всё время.",
+        "story": "Чем больше монет на столе, тем веселее начинается смена.",
+        "metric": "bought",
+        "goal": 3,
+        "gems": 3,
+        "tokens": 10
+      },
+      {
+        "id": "first_stamp",
+        "name": "Новая проба",
+        "text": "Объедини одинаковые монеты хотя бы раз.",
+        "story": "Два маленьких успеха превращаются в один большой.",
+        "metric": "merges",
+        "goal": 1,
+        "gems": 4,
+        "tokens": 15
+      },
+      {
+        "id": "first_worker",
+        "name": "Не одними руками",
+        "text": "Найми первого миньона.",
+        "story": "Знакомься: бригадир Кузя. Каска своя, энтузиазм безлимитный.",
+        "metric": "minions",
+        "goal": 1,
+        "gems": 5,
+        "tokens": 15
+      },
+      {
+        "id": "heads_up",
+        "name": "На светлую сторону",
+        "text": "Получи 50 орлов за всё время.",
+        "story": "Кузя утверждает, что дело в правильном замахе. Подкова тоже помогает.",
+        "metric": "heads",
+        "goal": 50,
+        "gems": 6,
+        "tokens": 20
+      },
+      {
+        "id": "bar",
+        "name": "Место у стойки",
+        "text": "Доберись до зоны 2.",
+        "story": "Кухонный стол стал тесен. Бармен уже протирает для тебя новый уголок.",
+        "metric": "zone",
+        "goal": 2,
+        "gems": 8,
+        "tokens": 20
+      },
+      {
+        "id": "jade",
+        "name": "Зелёный свет",
+        "text": "Открой Нефрит — монету 6-го тира.",
+        "story": "Первый камень в будущей коллекции. Кузя просит разрешения подержать.",
+        "metric": "tier",
+        "goal": 5,
+        "gems": 10,
+        "tokens": 25
+      },
+      {
+        "id": "wardrobe",
+        "name": "Каской не ограничимся",
+        "text": "Открой первую капсулу со шляпой.",
+        "story": "Хорошая бригада заслуживает собственного стиля.",
+        "metric": "capsules",
+        "goal": 1,
+        "gems": 6,
+        "tokens": 25
+      },
+      {
+        "id": "chase",
+        "name": "Удачу за гурт",
+        "text": "Поймай 3 счастливые монеты.",
+        "story": "Они всё время куда-то спешат. Возможно, к твоему следующему рекорду.",
+        "metric": "lucky",
+        "goal": 3,
+        "gems": 10,
+        "tokens": 30
+      },
+      {
+        "id": "club",
+        "name": "Вход для своих",
+        "text": "Доберись до зоны 3.",
+        "story": "За этой дверью знают цену хорошей чеканке. И умеют разбивать копилки.",
+        "metric": "zone",
+        "goal": 3,
+        "gems": 12,
+        "tokens": 30
+      },
+      {
+        "id": "capital",
+        "name": "Серьёзный капитал",
+        "text": "Заработай суммарно 50 миллионов монет.",
+        "story": "Цифры стали большими, а первая медная монетка всё ещё лежит в памяти.",
+        "metric": "total",
+        "goal": 50000000,
+        "gems": 15,
+        "tokens": 40
+      },
+      {
+        "id": "new_shift",
+        "name": "Начать с опытом",
+        "text": "Впервые разбей Копилку.",
+        "story": "Стол снова маленький, но теперь за твоими плечами целый монетный двор.",
+        "metric": "prestiges",
+        "goal": 1,
+        "gems": 20,
+        "tokens": 50
+      },
+      {
+        "id": "vault",
+        "name": "Собственный сейф",
+        "text": "Доберись до зоны 5.",
+        "story": "Раньше ты искал место для монет. Теперь для них построили целую комнату.",
+        "metric": "zone",
+        "goal": 5,
+        "gems": 25,
+        "tokens": 60
+      },
+      {
+        "id": "diamond",
+        "name": "Алмазная подпись",
+        "text": "Открой Алмаз — монету 15-го тира.",
+        "story": "Эта монета говорит о мастерстве громче любой вывески.",
+        "metric": "tier",
+        "goal": 14,
+        "gems": 30,
+        "tokens": 80
+      },
+      {
+        "id": "stars",
+        "name": "Двор среди звёзд",
+        "text": "Доберись до зоны 10.",
+        "story": "Кузя смотрит в иллюминатор: «А ведь всё началось с двух монеток».",
+        "metric": "zone",
+        "goal": 10,
+        "gems": 50,
+        "tokens": 100
+      }
+    ]
+  },
+  "tiers": [
+    {
+      "tier": 0,
+      "name": "Медяк",
+      "denomination": 1
+    },
+    {
+      "tier": 1,
+      "name": "Латунь",
+      "denomination": 2
+    },
+    {
+      "tier": 2,
+      "name": "Серебро",
+      "denomination": 5
+    },
+    {
+      "tier": 3,
+      "name": "Золото",
+      "denomination": 10
+    },
+    {
+      "tier": 4,
+      "name": "Платина",
+      "denomination": 25
+    },
+    {
+      "tier": 5,
+      "name": "Нефрит",
+      "denomination": 50
+    },
+    {
+      "tier": 6,
+      "name": "Рубин",
+      "denomination": 100
+    },
+    {
+      "tier": 7,
+      "name": "Сапфир",
+      "denomination": 250
+    },
+    {
+      "tier": 8,
+      "name": "Аметист",
+      "denomination": 500
+    },
+    {
+      "tier": 9,
+      "name": "Изумруд",
+      "denomination": 1000
+    },
+    {
+      "tier": 10,
+      "name": "Янтарь",
+      "denomination": 2500
+    },
+    {
+      "tier": 11,
+      "name": "Обсидиан",
+      "denomination": 5000
+    },
+    {
+      "tier": 12,
+      "name": "Опал",
+      "denomination": 10000
+    },
+    {
+      "tier": 13,
+      "name": "Жемчуг",
+      "denomination": 25000
+    },
+    {
+      "tier": 14,
+      "name": "Алмаз",
+      "denomination": 50000
+    },
+    {
+      "tier": 15,
+      "name": "Метеорит",
+      "denomination": 100000
+    },
+    {
+      "tier": 16,
+      "name": "Солнечная",
+      "denomination": 250000
+    },
+    {
+      "tier": 17,
+      "name": "Лунная",
+      "denomination": 500000
+    },
+    {
+      "tier": 18,
+      "name": "Звёздная",
+      "denomination": 1000000
+    },
+    {
+      "tier": 19,
+      "name": "Туманность",
+      "denomination": 2500000
+    },
+    {
+      "tier": 20,
+      "name": "Пульсар",
+      "denomination": 5000000
+    },
+    {
+      "tier": 21,
+      "name": "Квазар",
+      "denomination": 10000000
+    },
+    {
+      "tier": 22,
+      "name": "Сингулярность",
+      "denomination": 25000000
+    },
+    {
+      "tier": 23,
+      "name": "Абсолют",
+      "denomination": 50000000
+    },
+    {
+      "tier": 24,
+      "name": "Медяк ★2",
+      "denomination": 100000000
+    },
+    {
+      "tier": 25,
+      "name": "Латунь ★2",
+      "denomination": 250000000
+    },
+    {
+      "tier": 26,
+      "name": "Серебро ★2",
+      "denomination": 500000000
+    },
+    {
+      "tier": 27,
+      "name": "Золото ★2",
+      "denomination": 1000000000
+    },
+    {
+      "tier": 28,
+      "name": "Платина ★2",
+      "denomination": 2500000000
+    },
+    {
+      "tier": 29,
+      "name": "Нефрит ★2",
+      "denomination": 5000000000
+    },
+    {
+      "tier": 30,
+      "name": "Рубин ★2",
+      "denomination": 10000000000
+    },
+    {
+      "tier": 31,
+      "name": "Сапфир ★2",
+      "denomination": 25000000000
+    },
+    {
+      "tier": 32,
+      "name": "Аметист ★2",
+      "denomination": 50000000000
+    },
+    {
+      "tier": 33,
+      "name": "Изумруд ★2",
+      "denomination": 100000000000
+    },
+    {
+      "tier": 34,
+      "name": "Янтарь ★2",
+      "denomination": 250000000000
+    },
+    {
+      "tier": 35,
+      "name": "Обсидиан ★2",
+      "denomination": 500000000000
+    },
+    {
+      "tier": 36,
+      "name": "Опал ★2",
+      "denomination": 1000000000000
+    },
+    {
+      "tier": 37,
+      "name": "Жемчуг ★2",
+      "denomination": 2500000000000
+    },
+    {
+      "tier": 38,
+      "name": "Алмаз ★2",
+      "denomination": 5000000000000
+    },
+    {
+      "tier": 39,
+      "name": "Метеорит ★2",
+      "denomination": 10000000000000
+    },
+    {
+      "tier": 40,
+      "name": "Солнечная ★2",
+      "denomination": 25000000000000
+    },
+    {
+      "tier": 41,
+      "name": "Лунная ★2",
+      "denomination": 50000000000000
+    },
+    {
+      "tier": 42,
+      "name": "Звёздная ★2",
+      "denomination": 100000000000000
+    },
+    {
+      "tier": 43,
+      "name": "Туманность ★2",
+      "denomination": 250000000000000
+    },
+    {
+      "tier": 44,
+      "name": "Пульсар ★2",
+      "denomination": 500000000000000
+    },
+    {
+      "tier": 45,
+      "name": "Квазар ★2",
+      "denomination": 1000000000000000
+    },
+    {
+      "tier": 46,
+      "name": "Сингулярность ★2",
+      "denomination": 2500000000000000
+    },
+    {
+      "tier": 47,
+      "name": "Абсолют ★2",
+      "denomination": 5000000000000000
+    },
+    {
+      "tier": 48,
+      "name": "Медяк ★3",
+      "denomination": 10000000000000000
+    },
+    {
+      "tier": 49,
+      "name": "Латунь ★3",
+      "denomination": 25000000000000000
+    },
+    {
+      "tier": 50,
+      "name": "Серебро ★3",
+      "denomination": 50000000000000000
+    },
+    {
+      "tier": 51,
+      "name": "Золото ★3",
+      "denomination": 100000000000000000
+    },
+    {
+      "tier": 52,
+      "name": "Платина ★3",
+      "denomination": 250000000000000000
+    },
+    {
+      "tier": 53,
+      "name": "Нефрит ★3",
+      "denomination": 500000000000000000
+    },
+    {
+      "tier": 54,
+      "name": "Рубин ★3",
+      "denomination": 1000000000000000000
+    },
+    {
+      "tier": 55,
+      "name": "Сапфир ★3",
+      "denomination": 2500000000000000000
+    },
+    {
+      "tier": 56,
+      "name": "Аметист ★3",
+      "denomination": 5000000000000000000
+    },
+    {
+      "tier": 57,
+      "name": "Изумруд ★3",
+      "denomination": 10000000000000000000
+    },
+    {
+      "tier": 58,
+      "name": "Янтарь ★3",
+      "denomination": 25000000000000000000
+    },
+    {
+      "tier": 59,
+      "name": "Обсидиан ★3",
+      "denomination": 50000000000000000000
+    }
+  ],
+  "zones": [
+    {
+      "zone": 1,
+      "name": "Кухонный стол",
+      "multiplier": 1,
+      "nextZonePrice": 1500,
+      "baseCapacity": 6,
+      "declaredMaxCapacity": 12,
+      "capacityUpgradeMax": 6,
+      "minionMax": 6,
+      "pressMax": 1
+    },
+    {
+      "zone": 2,
+      "name": "Барная стойка",
+      "multiplier": 5,
+      "nextZonePrice": 877500,
+      "baseCapacity": 7,
+      "declaredMaxCapacity": 14,
+      "capacityUpgradeMax": 7,
+      "minionMax": 9,
+      "pressMax": 3
+    },
+    {
+      "zone": 3,
+      "name": "Подпольный клуб",
+      "multiplier": 25,
+      "nextZonePrice": 513337500,
+      "baseCapacity": 8,
+      "declaredMaxCapacity": 16,
+      "capacityUpgradeMax": 8,
+      "minionMax": 12,
+      "pressMax": 5
+    },
+    {
+      "zone": 4,
+      "name": "Казино «Фортуна»",
+      "multiplier": 125,
+      "nextZonePrice": 300302437500,
+      "baseCapacity": 9,
+      "declaredMaxCapacity": 18,
+      "capacityUpgradeMax": 9,
+      "minionMax": 15,
+      "pressMax": 7
+    },
+    {
+      "zone": 5,
+      "name": "Банковский сейф",
+      "multiplier": 625,
+      "nextZonePrice": 175676925937500,
+      "baseCapacity": 10,
+      "declaredMaxCapacity": 20,
+      "capacityUpgradeMax": 10,
+      "minionMax": 18,
+      "pressMax": 9
+    },
+    {
+      "zone": 6,
+      "name": "Королевская казна",
+      "multiplier": 3125,
+      "nextZonePrice": 102771001673437500,
+      "baseCapacity": 11,
+      "declaredMaxCapacity": 22,
+      "capacityUpgradeMax": 11,
+      "minionMax": 21,
+      "pressMax": 11
+    },
+    {
+      "zone": 7,
+      "name": "Пиратский трюм",
+      "multiplier": 15625,
+      "nextZonePrice": 60121035978960940000,
+      "baseCapacity": 12,
+      "declaredMaxCapacity": 24,
+      "capacityUpgradeMax": 12,
+      "minionMax": 24,
+      "pressMax": 13
+    },
+    {
+      "zone": 8,
+      "name": "Драконье логово",
+      "multiplier": 78125,
+      "nextZonePrice": 3.5170806047692147e+22,
+      "baseCapacity": 13,
+      "declaredMaxCapacity": 26,
+      "capacityUpgradeMax": 13,
+      "minionMax": 27,
+      "pressMax": 15
+    },
+    {
+      "zone": 9,
+      "name": "Лунная биржа",
+      "multiplier": 390625,
+      "nextZonePrice": 2.057492153789991e+25,
+      "baseCapacity": 14,
+      "declaredMaxCapacity": 28,
+      "capacityUpgradeMax": 14,
+      "minionMax": 30,
+      "pressMax": 17
+    },
+    {
+      "zone": 10,
+      "name": "Звёздный монетный двор",
+      "multiplier": 1953125,
+      "nextZonePrice": 1.2036329099671446e+28,
+      "baseCapacity": 15,
+      "declaredMaxCapacity": 30,
+      "capacityUpgradeMax": 15,
+      "minionMax": 30,
+      "pressMax": 19
+    },
+    {
+      "zone": 11,
+      "name": "Кухонный стол II",
+      "multiplier": 9765625,
+      "nextZonePrice": 7.041252523307795e+30,
+      "baseCapacity": 16,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 16,
+      "minionMax": 30,
+      "pressMax": 21
+    },
+    {
+      "zone": 12,
+      "name": "Барная стойка II",
+      "multiplier": 48828125,
+      "nextZonePrice": 4.11913272613506e+33,
+      "baseCapacity": 17,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 15,
+      "minionMax": 30,
+      "pressMax": 23
+    },
+    {
+      "zone": 13,
+      "name": "Подпольный клуб II",
+      "multiplier": 244140625,
+      "nextZonePrice": 2.4096926447890103e+36,
+      "baseCapacity": 18,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 14,
+      "minionMax": 30,
+      "pressMax": 25
+    },
+    {
+      "zone": 14,
+      "name": "Казино «Фортуна» II",
+      "multiplier": 1220703125,
+      "nextZonePrice": 1.409670197201571e+39,
+      "baseCapacity": 19,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 13,
+      "minionMax": 30,
+      "pressMax": 27
+    },
+    {
+      "zone": 15,
+      "name": "Банковский сейф II",
+      "multiplier": 6103515625,
+      "nextZonePrice": 8.24657065362919e+41,
+      "baseCapacity": 20,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 12,
+      "minionMax": 30,
+      "pressMax": 29
+    },
+    {
+      "zone": 16,
+      "name": "Королевская казна II",
+      "multiplier": 30517578125,
+      "nextZonePrice": 4.824243832373076e+44,
+      "baseCapacity": 21,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 11,
+      "minionMax": 30,
+      "pressMax": 31
+    },
+    {
+      "zone": 17,
+      "name": "Пиратский трюм II",
+      "multiplier": 152587890625,
+      "nextZonePrice": 2.8221826419382496e+47,
+      "baseCapacity": 22,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 10,
+      "minionMax": 30,
+      "pressMax": 33
+    },
+    {
+      "zone": 18,
+      "name": "Драконье логово II",
+      "multiplier": 762939453125,
+      "nextZonePrice": 1.6509768455338763e+50,
+      "baseCapacity": 23,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 9,
+      "minionMax": 30,
+      "pressMax": 35
+    },
+    {
+      "zone": 19,
+      "name": "Лунная биржа II",
+      "multiplier": 3814697265625,
+      "nextZonePrice": 9.658214546373176e+52,
+      "baseCapacity": 24,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 8,
+      "minionMax": 30,
+      "pressMax": 37
+    },
+    {
+      "zone": 20,
+      "name": "Звёздный монетный двор II",
+      "multiplier": 19073486328125,
+      "nextZonePrice": 5.650055509628307e+55,
+      "baseCapacity": 25,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 7,
+      "minionMax": 30,
+      "pressMax": 39
+    },
+    {
+      "zone": 21,
+      "name": "Кухонный стол III",
+      "multiplier": 95367431640625,
+      "nextZonePrice": 3.30528247313256e+58,
+      "baseCapacity": 26,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 6,
+      "minionMax": 30,
+      "pressMax": 41
+    },
+    {
+      "zone": 22,
+      "name": "Барная стойка III",
+      "multiplier": 476837158203125,
+      "nextZonePrice": 1.9335902467825476e+61,
+      "baseCapacity": 27,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 5,
+      "minionMax": 30,
+      "pressMax": 43
+    },
+    {
+      "zone": 23,
+      "name": "Подпольный клуб III",
+      "multiplier": 2384185791015625,
+      "nextZonePrice": 1.1311502943677905e+64,
+      "baseCapacity": 28,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 4,
+      "minionMax": 30,
+      "pressMax": 45
+    },
+    {
+      "zone": 24,
+      "name": "Казино «Фортуна» III",
+      "multiplier": 11920928955078124,
+      "nextZonePrice": 6.617229222051574e+66,
+      "baseCapacity": 29,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 3,
+      "minionMax": 30,
+      "pressMax": 47
+    },
+    {
+      "zone": 25,
+      "name": "Банковский сейф III",
+      "multiplier": 59604644775390620,
+      "nextZonePrice": 3.87107909490017e+69,
+      "baseCapacity": 30,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 2,
+      "minionMax": 30,
+      "pressMax": 49
+    },
+    {
+      "zone": 26,
+      "name": "Королевская казна III",
+      "multiplier": 298023223876953150,
+      "nextZonePrice": 2.2645812705165998e+72,
+      "baseCapacity": 31,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 1,
+      "minionMax": 30,
+      "pressMax": 51
+    },
+    {
+      "zone": 27,
+      "name": "Пиратский трюм III",
+      "multiplier": 1490116119384765700,
+      "nextZonePrice": 1.3247800432522109e+75,
+      "baseCapacity": 32,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": 0,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 28,
+      "name": "Драконье логово III",
+      "multiplier": 7450580596923828000,
+      "nextZonePrice": 7.749963253025432e+77,
+      "baseCapacity": 33,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -1,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 29,
+      "name": "Лунная биржа III",
+      "multiplier": 37252902984619140000,
+      "nextZonePrice": 4.5337285030198785e+80,
+      "baseCapacity": 34,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -2,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 30,
+      "name": "Звёздный монетный двор III",
+      "multiplier": 186264514923095700000,
+      "nextZonePrice": 2.652231174266629e+83,
+      "baseCapacity": 35,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -3,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 31,
+      "name": "Кухонный стол IV",
+      "multiplier": 931322574615478500000,
+      "nextZonePrice": 1.551555236945978e+86,
+      "baseCapacity": 36,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -4,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 32,
+      "name": "Барная стойка IV",
+      "multiplier": 4.6566128730773924e+21,
+      "nextZonePrice": 9.076598136133971e+88,
+      "baseCapacity": 37,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -5,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 33,
+      "name": "Подпольный клуб IV",
+      "multiplier": 2.3283064365386964e+22,
+      "nextZonePrice": 5.309809909638373e+91,
+      "baseCapacity": 38,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -6,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 34,
+      "name": "Казино «Фортуна» IV",
+      "multiplier": 1.164153218269348e+23,
+      "nextZonePrice": 3.106238797138448e+94,
+      "baseCapacity": 39,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -7,
+      "minionMax": 30,
+      "pressMax": 53
+    },
+    {
+      "zone": 35,
+      "name": "Банковский сейф IV",
+      "multiplier": 5.8207660913467404e+23,
+      "nextZonePrice": 1.817149696325992e+97,
+      "baseCapacity": 40,
+      "declaredMaxCapacity": 32,
+      "capacityUpgradeMax": -8,
+      "minionMax": 30,
+      "pressMax": 53
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "tap",
+      "name": "Ловкие пальцы",
+      "base": 12,
+      "growth": 2.6,
+      "declaredMax": 8,
+      "actualMaxZone1": 8,
+      "actualMaxZone15": 8
+    },
+    {
+      "id": "speed",
+      "name": "Бодрые миньоны",
+      "base": 60,
+      "growth": 2.25,
+      "declaredMax": 20,
+      "actualMaxZone1": 20,
+      "actualMaxZone15": 20
+    },
+    {
+      "id": "heads",
+      "name": "Подкова",
+      "base": 75,
+      "growth": 2.7,
+      "declaredMax": 12,
+      "actualMaxZone1": 12,
+      "actualMaxZone15": 12
+    },
+    {
+      "id": "mult",
+      "name": "Позолота",
+      "base": 200,
+      "growth": 2.35,
+      "declaredMax": 200,
+      "actualMaxZone1": 200,
+      "actualMaxZone15": 200
+    },
+    {
+      "id": "cap",
+      "name": "Большой стол",
+      "base": 30,
+      "growth": 1.95,
+      "declaredMax": 40,
+      "actualMaxZone1": 6,
+      "actualMaxZone15": 12
+    },
+    {
+      "id": "press",
+      "name": "Монетный пресс",
+      "base": 450,
+      "growth": 9,
+      "declaredMax": 30,
+      "actualMaxZone1": 1,
+      "actualMaxZone15": 29
+    },
+    {
+      "id": "edge",
+      "name": "На ребро",
+      "base": 1250,
+      "growth": 3.1,
+      "declaredMax": 14,
+      "actualMaxZone1": 14,
+      "actualMaxZone15": 14
+    },
+    {
+      "id": "mint",
+      "name": "Чеканка",
+      "base": 3000,
+      "growth": 5.2,
+      "declaredMax": 500,
+      "actualMaxZone1": 500,
+      "actualMaxZone15": 500
+    },
+    {
+      "id": "auto",
+      "name": "Автомерж",
+      "base": 2000,
+      "growth": 1,
+      "declaredMax": 1,
+      "actualMaxZone1": 1,
+      "actualMaxZone15": 1
+    },
+    {
+      "id": "safe",
+      "name": "Сейф",
+      "base": 4000,
+      "growth": 3,
+      "declaredMax": 10,
+      "actualMaxZone1": 10,
+      "actualMaxZone15": 10
+    }
+  ],
+  "perks": [
+    {
+      "id": "p_mint",
+      "name": "Монетный двор",
+      "base": 3,
+      "growth": 2.6,
+      "max": 100
+    },
+    {
+      "id": "p_start",
+      "name": "Наследство",
+      "base": 2,
+      "growth": 2,
+      "max": 6
+    },
+    {
+      "id": "p_press",
+      "name": "Фамильный пресс",
+      "base": 4,
+      "growth": 3,
+      "max": 4
+    },
+    {
+      "id": "p_luck",
+      "name": "Счастливая подкова",
+      "base": 2,
+      "growth": 1.9,
+      "max": 10
+    },
+    {
+      "id": "p_gold",
+      "name": "Золотая жила",
+      "base": 3,
+      "growth": 2.2,
+      "max": 8
+    },
+    {
+      "id": "p_auto",
+      "name": "Опытная бригада",
+      "base": 4,
+      "growth": 1,
+      "max": 1
+    },
+    {
+      "id": "p_zone",
+      "name": "Связи",
+      "base": 12,
+      "growth": 5,
+      "max": 4
+    }
+  ],
+  "constants": {
+    "BAR_BONUS": 0.25,
+    "HAT_BONUS": 0.03,
+    "BARS_MIN": 50000000,
+    "PRESTIGE_ZONE": 3,
+    "BASE_CYCLE": 2.6,
+    "AIR_TIME": 0.95,
+    "EDGE_MULT": 10
+  },
+  "samples": {
+    "coinPrices": [
+      3,
+      3,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      8,
+      9
+    ],
+    "minionPrices": [
+      13,
+      21,
+      33,
+      54,
+      87,
+      140,
+      226,
+      367,
+      593,
+      961,
+      1557,
+      2522
+    ],
+    "xp": [
+      {
+        "level": 1,
+        "need": 20,
+        "gems": 3
+      },
+      {
+        "level": 2,
+        "need": 67,
+        "gems": 3
+      },
+      {
+        "level": 3,
+        "need": 136,
+        "gems": 3
+      },
+      {
+        "level": 4,
+        "need": 226,
+        "gems": 3
+      },
+      {
+        "level": 5,
+        "need": 334,
+        "gems": 5
+      },
+      {
+        "level": 6,
+        "need": 460,
+        "gems": 5
+      },
+      {
+        "level": 7,
+        "need": 602,
+        "gems": 5
+      },
+      {
+        "level": 8,
+        "need": 761,
+        "gems": 5
+      },
+      {
+        "level": 9,
+        "need": 935,
+        "gems": 5
+      },
+      {
+        "level": 10,
+        "need": 1124,
+        "gems": 7
+      }
+    ],
+    "capsules": [
+      20,
+      24,
+      29,
+      36,
+      44,
+      54,
+      65,
+      80,
+      98,
+      119,
+      146,
+      178
+    ]
+  },
+  "syntax": "pass"
+}

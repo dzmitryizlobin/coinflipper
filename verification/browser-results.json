@@ -1,0 +1,757 @@
+{
+  "executedAt": "2026-10-11T15:36:07.537Z",
+  "browser": "154.0.8037.99",
+  "isolation": "Fresh contexts; local HTML route; external SDKs and API blocked; no real Telegram account",
+  "tests": 51,
+  "passed": 51,
+  "failed": 0,
+  "results": [
+    {
+      "id": "boot",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "money": 0,
+        "gems": 10,
+        "lvl": 1,
+        "tiers": [
+          0,
+          0
+        ],
+        "capacity": 6,
+        "price": 3,
+        "baseMult": 1.02
+      }
+    },
+    {
+      "id": "heads-tails-edge",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "a": [
+          1,
+          0,
+          1
+        ],
+        "b": [
+          1,
+          1,
+          2
+        ],
+        "c": [
+          11,
+          1,
+          8
+        ],
+        "flips": 3
+      }
+    },
+    {
+      "id": "real-pointer-tap",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "taps": 1,
+        "flips": 1,
+        "xp": 1
+      }
+    },
+    {
+      "id": "level-unlocks",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "a": {
+          "lvl": 2,
+          "gems": 13,
+          "merge": true,
+          "minions": false
+        },
+        "b": {
+          "lvl": 3,
+          "gems": 16,
+          "minions": true
+        }
+      }
+    },
+    {
+      "id": "buy-capacity",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "count": 6,
+        "bought": 4,
+        "money": 986
+      }
+    },
+    {
+      "id": "merge-normal",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "tiers": [
+          1
+        ],
+        "merges": 1,
+        "xp": 1,
+        "discovered": 2
+      }
+    },
+    {
+      "id": "merge-button",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "tiers": [
+          1
+        ],
+        "flyers": 0
+      }
+    },
+    {
+      "id": "minion-income",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "minions": 1,
+        "flips": 29,
+        "earned": 16,
+        "xp": 7.25,
+        "idle": 0.19615384615384615
+      }
+    },
+    {
+      "id": "auto-needs-full-and-money",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "before": 6,
+        "noMoney": 6,
+        "withMoney": 5
+      }
+    },
+    {
+      "id": "zone-keeps-run",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "money": 500,
+        "zone": 2,
+        "cap": 9,
+        "bought": 7,
+        "coins": 2,
+        "mult": 5
+      }
+    },
+    {
+      "id": "prestige-threshold-and-retention",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "pending": 3,
+        "bars": 3,
+        "total": 3,
+        "money": 0,
+        "zone": 1,
+        "minions": 2,
+        "press": 1,
+        "lvl": 7,
+        "gems": 77,
+        "tokens": 123,
+        "x2": 1,
+        "boost": true
+      }
+    },
+    {
+      "id": "perk-spend-retains-total",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "bars": 7,
+        "total": 10,
+        "level": 1,
+        "mult": 5.355
+      }
+    },
+    {
+      "id": "save-load-roundtrip",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "money": 1234,
+        "gems": 88,
+        "lvl": 7,
+        "press": 2,
+        "tiers": [
+          5,
+          0
+        ]
+      }
+    },
+    {
+      "id": "capsule-and-duplicate",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "a": {
+          "tokens": 80,
+          "capsules": 1,
+          "gems": 10,
+          "hats": 2
+        },
+        "b": {
+          "tokens": 56,
+          "capsules": 2,
+          "gems": 13,
+          "hats": 2
+        }
+      }
+    },
+    {
+      "id": "daily-once",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "gems": 15,
+        "tokens": 10,
+        "streak": 1,
+        "canClaim": false
+      }
+    },
+    {
+      "id": "quest-once",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "claimed": 1,
+        "gems": 18,
+        "reward": 8
+      }
+    },
+    {
+      "id": "lucky-reward-branches",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": [
+        {
+          "gems": 10,
+          "money": 0,
+          "frenzy": true
+        },
+        {
+          "gems": 10,
+          "money": 50,
+          "frenzy": true
+        },
+        {
+          "gems": 13,
+          "money": 50,
+          "frenzy": true
+        }
+      ]
+    },
+    {
+      "id": "gem-shop",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "gems": 105,
+        "tokens": 50,
+        "money": 100,
+        "boost": true,
+        "lucky": true
+      }
+    },
+    {
+      "id": "offline-cap",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "rate": 0.19615384615384615,
+        "earned": 1412.3076923076924,
+        "expected": 1412.3076923076924
+      }
+    },
+    {
+      "id": "offline-club-cap",
+      "kind": "behavior",
+      "result": "pass",
+      "evidence": {
+        "earned": 7414.615384615385,
+        "expected": 7414.615384615385
+      }
+    },
+    {
+      "id": "B01-vip-unlimited-gems",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "gems": 510,
+        "ads": 20
+      }
+    },
+    {
+      "id": "B02-offline-ad-limit-loses-reward",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "offered": "С возвращением!Пока тебя не было 1ч 0м, бригада заработала:706Забрать×2 за рекламу",
+        "money": 0,
+        "modal": false,
+        "savedMoney": 0
+      }
+    },
+    {
+      "id": "B03-max-tier-overflow",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "pairsBefore": 0,
+        "tiers": [
+          60
+        ],
+        "max": 59
+      }
+    },
+    {
+      "id": "B04-overlapping-merge-jobs",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "jobs": 3,
+        "tiers": [
+          0,
+          2
+        ],
+        "states": [
+          "fly",
+          "ground"
+        ],
+        "merges": 2
+      }
+    },
+    {
+      "id": "B05-null-save-crashes",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": "TypeError: Cannot read properties of null (reading 'flips')"
+    },
+    {
+      "id": "B06-negative-values-accepted",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "money": -500,
+        "gems": -7,
+        "tiers": [
+          99
+        ]
+      }
+    },
+    {
+      "id": "B07-grant-replay",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "gems": 250
+      }
+    },
+    {
+      "id": "B08-claim-not-durable",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "live": {
+          "gems": 40,
+          "vip": true
+        },
+        "saved": {
+          "gems": 10,
+          "vip": false
+        }
+      }
+    },
+    {
+      "id": "B09-demo-ad-inside-telegram",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "demo": true,
+        "busy": true,
+        "overlay": true
+      }
+    },
+    {
+      "id": "B10-capacity-over-declared-limit",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "before": 32,
+        "after": 33,
+        "declared": 32,
+        "upgradeLimit": 15
+      }
+    },
+    {
+      "id": "B11-reset-keeps-transient-state",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "savedQty": false,
+        "liveQty": true,
+        "frenzy": true
+      }
+    },
+    {
+      "id": "B12-deferred-refresh-fixed",
+      "kind": "regression",
+      "result": "pass",
+      "evidence": {
+        "money": 12,
+        "buttonDisabled": false,
+        "signatureCurrent": true
+      }
+    },
+    {
+      "id": "B13-landscape-floor-fixed",
+      "kind": "regression",
+      "result": "pass",
+      "evidence": {
+        "top": 126.390625,
+        "bottom": 323,
+        "vMax": 0.41597244261081134,
+        "diameter": 100.43812500000001,
+        "minV": -0.17797244261081135,
+        "maxV": 0.22897244261081132
+      }
+    },
+    {
+      "id": "B14-name-html-injection",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "injected": true
+      }
+    },
+    {
+      "id": "B15-reset-removes-starter-hat",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "ownedStarter": true,
+        "hat": false,
+        "gems": 10
+      }
+    },
+    {
+      "id": "B16-ad-failure-offline",
+      "kind": "known-defect",
+      "result": "pass",
+      "evidence": {
+        "money": 0,
+        "modal": false,
+        "busy": false
+      }
+    },
+    {
+      "id": "content-old-save-migration",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "money": 1234,
+        "taps": 40,
+        "minions": 2,
+        "content": {
+          "version": 1,
+          "journey": {},
+          "sets": {},
+          "peakMinions": 2
+        },
+        "ready": true
+      }
+    },
+    {
+      "id": "journey-eligibility-once-durable",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "first": {
+          "early": false,
+          "later": false,
+          "ok": true,
+          "repeat": false,
+          "gems": 12,
+          "tokens": 10,
+          "next": "small_change"
+        },
+        "loaded": {
+          "gems": 12,
+          "tokens": 10,
+          "repeat": false,
+          "next": "small_change"
+        }
+      }
+    },
+    {
+      "id": "journey-complete-and-prestige",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "n": 15,
+        "total": {
+          "gems": 216,
+          "tokens": 530
+        },
+        "after": {
+          "gems": 216,
+          "tokens": 530
+        },
+        "next": null,
+        "claimed": 15,
+        "peak": 1
+      }
+    },
+    {
+      "id": "hat-set-once-durable",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "before": {
+          "missing": false,
+          "unknown": false,
+          "ok": true,
+          "repeat": false,
+          "gems": 25,
+          "tokens": 30
+        },
+        "after": {
+          "repeat": false,
+          "gems": 25,
+          "tokens": 30,
+          "claimed": 1
+        }
+      }
+    },
+    {
+      "id": "journey-ui-and-daily-access",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "journeyEntry": true,
+        "claimButton": true,
+        "dailyGate": true
+      }
+    },
+    {
+      "id": "coin-lore-and-hat-set-ui",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "albumKeyboard": true,
+        "secondLap": true,
+        "setClaim": true
+      }
+    },
+    {
+      "id": "double-radius-all-zones",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "zones": 30,
+        "ratio": 2
+      }
+    },
+    {
+      "id": "large-coins-mobile-placement",
+      "kind": "content",
+      "result": "pass",
+      "evidence": [
+        {
+          "width": 390,
+          "initial": [
+            true,
+            true
+          ],
+          "count": 6,
+          "valid": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "left": 8,
+          "right": 382,
+          "diameter": 66.30000000000001
+        },
+        {
+          "width": 320,
+          "initial": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "count": 6,
+          "valid": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "left": 8,
+          "right": 312,
+          "diameter": 54.400000000000006
+        }
+      ]
+    },
+    {
+      "id": "large-coins-pointer-drag-merge",
+      "kind": "content",
+      "result": "pass",
+      "evidence": {
+        "tiers": [
+          1
+        ],
+        "merges": 1
+      }
+    },
+    {
+      "id": "initial-mobile",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "initial-small",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "initial-desktop",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "advanced-screens",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": []
+    },
+    {
+      "id": "all-zone-art",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": [],
+      "evidence": [
+        {
+          "zone": 1,
+          "chapter": "Всё начинается с мелочи",
+          "colors": {
+            "top": "#f1dfc0",
+            "mid": "#e2c598",
+            "bot": "#c8a16e"
+          }
+        },
+        {
+          "zone": 2,
+          "chapter": "Сдача остаётся тебе",
+          "colors": {
+            "top": "#ead0ac",
+            "mid": "#cf9e73",
+            "bot": "#ac754f"
+          }
+        },
+        {
+          "zone": 3,
+          "chapter": "Свои люди",
+          "colors": {
+            "top": "#c3ddd2",
+            "mid": "#8bbcad",
+            "bot": "#659e90"
+          }
+        },
+        {
+          "zone": 4,
+          "chapter": "На зелёном сукне",
+          "colors": {
+            "top": "#b0d4bc",
+            "mid": "#6da58c",
+            "bot": "#467968"
+          }
+        },
+        {
+          "zone": 5,
+          "chapter": "За семью замками",
+          "colors": {
+            "top": "#d7e3eb",
+            "mid": "#a7becd",
+            "bot": "#7b95ab"
+          }
+        },
+        {
+          "zone": 6,
+          "chapter": "Королевский заказ",
+          "colors": {
+            "top": "#e6cbd6",
+            "mid": "#c19aa9",
+            "bot": "#966c83"
+          }
+        },
+        {
+          "zone": 7,
+          "chapter": "Звон семи морей",
+          "colors": {
+            "top": "#e1ceb0",
+            "mid": "#bb9b72",
+            "bot": "#94734f"
+          }
+        },
+        {
+          "zone": 8,
+          "chapter": "Горячая чеканка",
+          "colors": {
+            "top": "#d2c9d4",
+            "mid": "#ada0b3",
+            "bot": "#827489"
+          }
+        },
+        {
+          "zone": 9,
+          "chapter": "Мелочь невесомости",
+          "colors": {
+            "top": "#e0e3f4",
+            "mid": "#b7c1df",
+            "bot": "#919bc3"
+          }
+        },
+        {
+          "zone": 10,
+          "chapter": "Твой знак среди звёзд",
+          "colors": {
+            "top": "#ddd7f2",
+            "mid": "#b4a7d5",
+            "bot": "#8e80b6"
+          }
+        }
+      ]
+    },
+    {
+      "id": "content-small-screens",
+      "kind": "visual-smoke",
+      "result": "pass",
+      "errors": [],
+      "evidence": {
+        "heading": 163.328125,
+        "body": 163.234375
+      }
+    }
+  ]
+}

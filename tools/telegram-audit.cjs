@@ -1,0 +1,19 @@
+/* Isolated smoke test of the actual upload HTML. Telegram is simulated, never contacted. */
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const {chromium}=require('playwright');const root=path.resolve(__dirname,'..'),html=fs.readFileSync(path.join(root,'telegram/index.html'),'utf8');let browser;
+(async()=>{
+ browser=await chromium.launch({headless:true,...(process.env.BROWSER_CHANNEL?{channel:process.env.BROWSER_CHANNEL}:{})});
+ const context=await browser.newContext({viewport:{width:390,height:844}}),requests=[],errors=[];
+ await context.route('**/*',r=>{if(r.request().url().includes('/api/'))requests.push(r.request().url());return r.fulfill({status:200,contentType:r.request().url()==='https://mint-dvor.test/'?'text/html':'text/plain',body:r.request().url()==='https://mint-dvor.test/'?html:''});});
+ const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
+ await p.addInitScript(()=>{window.__events={};window.__shared='';window.__ready=false;window.Telegram={WebApp:{initData:'test-only',initDataUnsafe:{user:{id:123,first_name:'Игрок'}},viewportStableHeight:844,isVersionAtLeast:()=>true,ready:()=>window.__ready=true,expand:()=>{},disableVerticalSwipes:()=>{},setHeaderColor:()=>{},setBackgroundColor:()=>{},setBottomBarColor:()=>{},openTelegramLink:url=>window.__shared=url,onEvent:(n,f)=>__events[n]=f,BackButton:{onClick:()=>{},show:()=>{},hide:()=>{}},SettingsButton:{onClick:()=>{},show:()=>{}}}};});
+ await p.goto('https://mint-dvor.test/');await p.waitForFunction(()=>__ready&&$('splash').classList.contains('off'));
+ const config=await p.evaluate(()=>({standalone:CONFIG.STANDALONE,demo:CONFIG.DEMO_OUTSIDE_TG,bot:CONFIG.BOT_USERNAME,app:CONFIG.APP_SHORT_NAME}));assert.deepEqual(config,{standalone:true,demo:false,bot:'coins_flipper_bot',app:''});
+ await p.evaluate(()=>{S.settings.sound=S.settings.haptic=false;openTab('shop');});assert.equal(await p.locator('.shopcard').count(),0);assert.equal(await p.locator('#shBody .card').count(),4);
+ const rewards=await p.evaluate(async()=>{const gems=S.gems;Pay.buy('gems_s');let adReward=false;Ads.show(()=>adReward=true);return {gems:S.gems,before:gems,adReward,claim:await Pay.claim(),invoiceButton:!!$('demoOk')};});assert.equal(rewards.gems,rewards.before);assert.equal(rewards.adReward,false);assert.equal(rewards.claim,false);assert.equal(rewards.invoiceButton,false);
+ const offline=await p.evaluate(()=>{closeAll();R().minions=1;rebuildWorld();const before=S.money;showOffline(3600);const doubleButton=!!$('oX2');$('oTake').click();saveAll(true);return {paid:S.money>before,doubleButton,money:S.money};});assert.ok(offline.paid);assert.equal(offline.doubleButton,false);
+ await p.reload();await p.waitForFunction(()=>__ready&&$('splash').classList.contains('off'));assert.equal(await p.evaluate(()=>S.money),offline.money);
+ await p.evaluate(()=>showInvite());assert.ok(!(await p.locator('#mBox').innerText()).includes('30 💎'));await p.locator('#invOk').click();const shared=await p.evaluate(()=>__shared);assert.ok(decodeURIComponent(shared).includes('https://t.me/coins_flipper_bot?startapp=ref_123'));
+ assert.deepEqual(requests,[]);assert.deepEqual(errors,[]);
+ const result={executedAt:new Date().toISOString(),result:'pass',config,checks:['actual release HTML boots with Telegram mock','shop excludes paid offers','no demo payment or ad rewards','no backend calls','offline base reward preserved across reload','correct bot and app share link'],apiRequests:requests,pageErrors:errors};fs.writeFileSync(path.join(root,'verification/telegram-results.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));await browser.close();
+})().catch(async e=>{console.error(e);if(browser)await browser.close();process.exitCode=1;});

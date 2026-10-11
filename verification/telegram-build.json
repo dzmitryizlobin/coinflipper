@@ -1,0 +1,15 @@
+{
+  "builtAt": "2026-10-11T15:51:46.867Z",
+  "sourceSha256": "975d07f426b58a60c6d1e46a68519a77bb70d5a355927f7f91d2d35faf6bf800",
+  "htmlSha256": "0c318385d0ad4b71011c77528fef889389e8a5f88929c321a00d8abe6a1d7a17",
+  "output": "telegram/index.html",
+  "launchUrl": "https://t.me/coins_flipper_bot?startapp",
+  "config": {
+    "BOT_USERNAME": "coins_flipper_bot",
+    "APP_SHORT_NAME": "",
+    "STANDALONE": true,
+    "DEMO_OUTSIDE_TG": false,
+    "ADSGRAM_BLOCK_ID": "",
+    "ADSGRAM_DEBUG": false
+  }
+}

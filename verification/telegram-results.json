@@ -1,0 +1,20 @@
+{
+  "executedAt": "2026-10-11T15:52:10.381Z",
+  "result": "pass",
+  "config": {
+    "standalone": true,
+    "demo": false,
+    "bot": "coins_flipper_bot",
+    "app": ""
+  },
+  "checks": [
+    "actual release HTML boots with Telegram mock",
+    "shop excludes paid offers",
+    "no demo payment or ad rewards",
+    "no backend calls",
+    "offline base reward preserved across reload",
+    "correct bot and app share link"
+  ],
+  "apiRequests": [],
+  "pageErrors": []
+}

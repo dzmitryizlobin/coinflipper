@@ -1,0 +1,1120 @@
+{
+  "executedAt": "2026-10-11T15:34:15.504Z",
+  "browser": "154.0.8037.99",
+  "tests": 15,
+  "passed": 15,
+  "failed": 0,
+  "results": [
+    {
+      "name": "narrow",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 280,
+          "top": 0,
+          "bottom": 600
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 81.25,
+            "top": 491,
+            "right": 198.734375,
+            "bottom": 525
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 417.625,
+            "right": 76.21875,
+            "bottom": 525
+          },
+          {
+            "id": "btnMinion",
+            "left": 203.765625,
+            "top": 417.625,
+            "right": 272,
+            "bottom": 525
+          },
+          {
+            "id": "zonepill",
+            "left": 61.84375,
+            "top": 379.625,
+            "right": 218.15625,
+            "bottom": 407.625
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 535,
+            "right": 280,
+            "bottom": 600
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 366.625,
+          "minV": -0.8344748883928572,
+          "maxV": 0.8854748883928572
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "small-short",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 480
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 94.984375,
+            "top": 377,
+            "right": 224.984375,
+            "bottom": 411
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 307.625,
+            "right": 86.578125,
+            "bottom": 411
+          },
+          {
+            "id": "btnMinion",
+            "left": 233.40625,
+            "top": 307.625,
+            "right": 312,
+            "bottom": 411
+          },
+          {
+            "id": "zonepill",
+            "left": 81.84375,
+            "top": 271.625,
+            "right": 238.15625,
+            "bottom": 299.625
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 421,
+            "right": 320,
+            "bottom": 480
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 261.625,
+          "minV": -0.29025927734375,
+          "maxV": 0.34125927734374994
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "very-short",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 400
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 187.65625,
+            "top": 263,
+            "right": 227.65625,
+            "bottom": 331
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 263,
+            "right": 86.578125,
+            "bottom": 331
+          },
+          {
+            "id": "btnMinion",
+            "left": 233.40625,
+            "top": 263,
+            "right": 312,
+            "bottom": 331
+          },
+          {
+            "id": "zonepill",
+            "left": 81.84375,
+            "top": 227,
+            "right": 238.15625,
+            "bottom": 255
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 341,
+            "right": 320,
+            "bottom": 400
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 118.1875,
+          "bottom": 217,
+          "minV": -0.147986328125,
+          "maxV": 0.19898632812499997
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "small",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 568
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 94.984375,
+            "top": 459,
+            "right": 224.984375,
+            "bottom": 493
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 385.625,
+            "right": 86.578125,
+            "bottom": 493
+          },
+          {
+            "id": "btnMinion",
+            "left": 233.40625,
+            "top": 385.625,
+            "right": 312,
+            "bottom": 493
+          },
+          {
+            "id": "zonepill",
+            "left": 81.84375,
+            "top": 347.625,
+            "right": 238.15625,
+            "bottom": 375.625
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 503,
+            "right": 320,
+            "bottom": 568
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 334.625,
+          "minV": -0.57541552734375,
+          "maxV": 0.62641552734375
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "mobile",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 844
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 129.984375,
+            "top": 721,
+            "right": 259.984375,
+            "bottom": 755
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 651,
+            "right": 104.703125,
+            "bottom": 755
+          },
+          {
+            "id": "btnMinion",
+            "left": 285.28125,
+            "top": 651,
+            "right": 382,
+            "bottom": 755
+          },
+          {
+            "id": "zonepill",
+            "left": 115.0625,
+            "top": 613,
+            "right": 274.921875,
+            "bottom": 641
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 765,
+            "right": 390,
+            "bottom": 844
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 140,
+          "bottom": 600,
+          "minV": -1.2363589743589745,
+          "maxV": 1.2873589743589744
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "large-phone",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 430,
+          "top": 0,
+          "bottom": 932
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 149.984375,
+            "top": 809,
+            "right": 279.984375,
+            "bottom": 843
+          },
+          {
+            "id": "btnMerge",
+            "left": 8.59375,
+            "top": 739,
+            "right": 115.328125,
+            "bottom": 843
+          },
+          {
+            "id": "btnMinion",
+            "left": 314.65625,
+            "top": 739,
+            "right": 421.40625,
+            "bottom": 843
+          },
+          {
+            "id": "zonepill",
+            "left": 128.4375,
+            "top": 701,
+            "right": 301.546875,
+            "bottom": 729
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 853,
+            "right": 430,
+            "bottom": 932
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 140,
+          "bottom": 688,
+          "minV": -1.3550232558139534,
+          "maxV": 1.4060232558139534
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "mid",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 540,
+          "top": 0,
+          "bottom": 720
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 204.984375,
+            "top": 611,
+            "right": 334.984375,
+            "bottom": 645
+          },
+          {
+            "id": "btnMerge",
+            "left": 10.796875,
+            "top": 539.8125,
+            "right": 144.84375,
+            "bottom": 645
+          },
+          {
+            "id": "btnMinion",
+            "left": 395.140625,
+            "top": 539.8125,
+            "right": 529.1875,
+            "bottom": 645
+          },
+          {
+            "id": "zonepill",
+            "left": 174.703125,
+            "top": 501.8125,
+            "right": 365.296875,
+            "bottom": 529.8125
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 655,
+            "right": 540,
+            "bottom": 720
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 488.8125,
+          "minV": -0.6009395254629629,
+          "maxV": 0.6519395254629629
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "landscape-small",
+      "result": "pass",
+      "evidence": {
+        "layout": "wide",
+        "app": {
+          "left": 0,
+          "right": 568,
+          "top": 0,
+          "bottom": 320
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 384,
+            "top": 144.796875,
+            "right": 514,
+            "bottom": 178.796875
+          },
+          {
+            "id": "btnMerge",
+            "left": 338,
+            "top": 188.796875,
+            "right": 445,
+            "bottom": 262.796875
+          },
+          {
+            "id": "btnMinion",
+            "left": 453,
+            "top": 188.796875,
+            "right": 560,
+            "bottom": 262.796875
+          },
+          {
+            "id": "zonepill",
+            "left": 338,
+            "top": 44.203125,
+            "right": 560,
+            "bottom": 72.203125
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 261,
+            "right": 568,
+            "bottom": 320
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 253,
+          "minV": -0.24450524009146335,
+          "maxV": 0.2955052400914633
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "landscape",
+      "result": "pass",
+      "evidence": {
+        "layout": "wide",
+        "app": {
+          "left": 0,
+          "right": 844,
+          "top": 0,
+          "bottom": 390
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 653.40625,
+            "top": 179.796875,
+            "right": 783.40625,
+            "bottom": 213.796875
+          },
+          {
+            "id": "btnMerge",
+            "left": 600.8125,
+            "top": 223.796875,
+            "right": 714.40625,
+            "bottom": 297.796875
+          },
+          {
+            "id": "btnMinion",
+            "left": 722.40625,
+            "top": 223.796875,
+            "right": 836,
+            "bottom": 297.796875
+          },
+          {
+            "id": "zonepill",
+            "left": 600.8125,
+            "top": 79.203125,
+            "right": 836,
+            "bottom": 107.203125
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 331,
+            "right": 844,
+            "bottom": 390
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 323,
+          "minV": -0.17797244261081135,
+          "maxV": 0.22897244261081132
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "tablet",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 1024
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 318.984375,
+            "top": 901,
+            "right": 448.984375,
+            "bottom": 935
+          },
+          {
+            "id": "btnMerge",
+            "left": 15.359375,
+            "top": 827,
+            "right": 208.046875,
+            "bottom": 935
+          },
+          {
+            "id": "btnMinion",
+            "left": 559.9375,
+            "top": 827,
+            "right": 752.640625,
+            "bottom": 935
+          },
+          {
+            "id": "zonepill",
+            "left": 288.703125,
+            "top": 789,
+            "right": 479.296875,
+            "bottom": 817
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 945,
+            "right": 768,
+            "bottom": 1024
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 141.796875,
+          "bottom": 776,
+          "minV": -0.7942316487630208,
+          "maxV": 0.8452316487630207
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "desktop",
+      "result": "pass",
+      "evidence": {
+        "layout": "wide",
+        "app": {
+          "left": 0,
+          "right": 1280,
+          "top": 0,
+          "bottom": 800
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 1046,
+            "top": 382.5,
+            "right": 1176,
+            "bottom": 416.5
+          },
+          {
+            "id": "btnMerge",
+            "left": 954,
+            "top": 430.5,
+            "right": 1107,
+            "bottom": 516.5
+          },
+          {
+            "id": "btnMinion",
+            "left": 1115,
+            "top": 430.5,
+            "right": 1268,
+            "bottom": 516.5
+          },
+          {
+            "id": "zonepill",
+            "left": 954,
+            "top": 266.5,
+            "right": 1268,
+            "bottom": 294.5
+          },
+          {
+            "id": "nav",
+            "left": 940,
+            "top": 721,
+            "right": 1280,
+            "bottom": 800
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 141.796875,
+          "bottom": 792,
+          "minV": -0.6266318151595744,
+          "maxV": 0.6776318151595744
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "desktop-large",
+      "result": "pass",
+      "evidence": {
+        "layout": "wide",
+        "app": {
+          "left": 240,
+          "right": 1680,
+          "top": 0,
+          "bottom": 1080
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 250,
+            "top": 8,
+            "right": 294,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 1446,
+            "top": 522.5,
+            "right": 1576,
+            "bottom": 556.5
+          },
+          {
+            "id": "btnMerge",
+            "left": 1354,
+            "top": 570.5,
+            "right": 1507,
+            "bottom": 656.5
+          },
+          {
+            "id": "btnMinion",
+            "left": 1515,
+            "top": 570.5,
+            "right": 1668,
+            "bottom": 656.5
+          },
+          {
+            "id": "zonepill",
+            "left": 1354,
+            "top": 406.5,
+            "right": 1668,
+            "bottom": 434.5
+          },
+          {
+            "id": "nav",
+            "left": 1340,
+            "top": 1001,
+            "right": 1680,
+            "bottom": 1080
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 141.796875,
+          "bottom": 1072,
+          "minV": -0.8190490056818183,
+          "maxV": 0.8700490056818182
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "telegram",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 844
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 56,
+          "bottom": 34
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 64,
+            "right": 54,
+            "bottom": 108
+          },
+          {
+            "id": "qty",
+            "left": 129.984375,
+            "top": 687,
+            "right": 259.984375,
+            "bottom": 721
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 617,
+            "right": 104.703125,
+            "bottom": 721
+          },
+          {
+            "id": "btnMinion",
+            "left": 285.28125,
+            "top": 617,
+            "right": 382,
+            "bottom": 721
+          },
+          {
+            "id": "zonepill",
+            "left": 115.0625,
+            "top": 579,
+            "right": 274.921875,
+            "bottom": 607
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 731,
+            "right": 390,
+            "bottom": 810
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 196,
+          "bottom": 566,
+          "minV": -0.9478974358974359,
+          "maxV": 0.9988974358974358
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0,
+        "viewportAndSafeAreaChanges": true
+      }
+    },
+    {
+      "name": "telegram-compact",
+      "result": "pass",
+      "evidence": {
+        "layout": "portrait",
+        "app": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 550
+        },
+        "safe": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 20
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 10,
+            "top": 8,
+            "right": 54,
+            "bottom": 52
+          },
+          {
+            "id": "qty",
+            "left": 129.984375,
+            "top": 427,
+            "right": 259.984375,
+            "bottom": 461
+          },
+          {
+            "id": "btnMerge",
+            "left": 8,
+            "top": 365.984375,
+            "right": 104.703125,
+            "bottom": 461
+          },
+          {
+            "id": "btnMinion",
+            "left": 285.28125,
+            "top": 365.984375,
+            "right": 382,
+            "bottom": 461
+          },
+          {
+            "id": "zonepill",
+            "left": 115.0625,
+            "top": 329.984375,
+            "right": 274.921875,
+            "bottom": 357.984375
+          },
+          {
+            "id": "nav",
+            "left": 0,
+            "top": 471,
+            "right": 390,
+            "bottom": 530
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 126.390625,
+          "bottom": 319.984375,
+          "minV": -0.38249278846153845,
+          "maxV": 0.4334927884615384
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    },
+    {
+      "name": "telegram-landscape",
+      "result": "pass",
+      "evidence": {
+        "layout": "wide",
+        "app": {
+          "left": 0,
+          "right": 844,
+          "top": 0,
+          "bottom": 390
+        },
+        "safe": {
+          "left": 44,
+          "right": 44,
+          "top": 24,
+          "bottom": 21
+        },
+        "controls": [
+          {
+            "id": "btnSettings",
+            "left": 54,
+            "top": 32,
+            "right": 98,
+            "bottom": 76
+          },
+          {
+            "id": "qty",
+            "left": 609.40625,
+            "top": 181.296875,
+            "right": 739.40625,
+            "bottom": 215.296875
+          },
+          {
+            "id": "btnMerge",
+            "left": 556.8125,
+            "top": 225.296875,
+            "right": 670.40625,
+            "bottom": 299.296875
+          },
+          {
+            "id": "btnMinion",
+            "left": 678.40625,
+            "top": 225.296875,
+            "right": 792,
+            "bottom": 299.296875
+          },
+          {
+            "id": "zonepill",
+            "left": 556.8125,
+            "top": 80.703125,
+            "right": 792,
+            "bottom": 108.703125
+          },
+          {
+            "id": "nav",
+            "left": 44,
+            "top": 310,
+            "right": 800,
+            "bottom": 369
+          }
+        ],
+        "gap": 10,
+        "qtyClickable": true,
+        "floor": {
+          "top": 150.390625,
+          "bottom": 302,
+          "minV": -0.1389033561218148,
+          "maxV": 0.18990335612181478
+        },
+        "valid": true,
+        "errors": [],
+        "scrollX": 0
+      }
+    }
+  ]
+}
