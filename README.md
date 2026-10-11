@@ -66,4 +66,4 @@ node tools/browser-audit.cjs
 - Workflow `.github/workflows/pages.yml` проверяет синтаксис, собирает отдельный HTML и публикует только `telegram/`. Документация и исходный снимок доступны в репозитории, но не входят в сайт.
 - Первичная настройка: GitHub Settings → Pages → Source: GitHub Actions; BotFather → Bot Settings → Configure Mini App → Enable Mini App и Menu Button → адрес сайта.
 
-Состояние на 2026-10-11: код загружен в `main`, GitHub Pages опубликован; HTTPS-файл совпадает с локальной сборкой. Проверены запуск, ×1/MAX и настройки, ошибок JavaScript нет. Привязка Main Mini App и кнопки меню в BotFather ещё ожидает завершения; текущая ссылка `?startapp` до этой привязки может не запускать игру.
+Состояние на 2026-10-11: обновление №4 опубликовано из коммита `26a3105`, workflow завершён успешно; HTTPS-файл совпадает с проверенной Telegram-сборкой. На живом сайте проверены новый UI, ×1/MAX и настройки, ошибок JavaScript нет. URL игры прежний. Настройка BotFather в этом обновлении не проверялась; подтверждения привязки от пользователя пока нет. Подробности — `verification/deployment.json`.

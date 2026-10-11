@@ -1,18 +1,20 @@
 {
-  "verifiedAt": "2026-10-11T16:07:33.807255+00:00",
+  "verifiedAt": "2026-10-11T17:56:48.816641+00:00",
   "repository": "https://github.com/dzmitryizlobin/coinflipper",
-  "publishedCommit": "fc28213f8428879a72c705faab7c8d0e98da2149",
-  "workflowRun": "https://github.com/dzmitryizlobin/coinflipper/actions/runs/38153795768",
+  "publishedCommit": "26a310576a29685fa3c0cb12998b1c2098215406",
+  "workflowRun": "https://github.com/dzmitryizlobin/coinflipper/actions/runs/38161640526",
   "workflowResult": "success",
   "site": "https://dzmitryizlobin.github.io/coinflipper/",
-  "htmlSha256": "0c318385d0ad4b71011c77528fef889389e8a5f88929c321a00d8abe6a1d7a17",
+  "sourceSha256": "4fd83c47968b5ae47b0bb2f8d8e6785a0b4bd1508f301c6f1c6c9f15a1db279c",
+  "htmlSha256": "ffc4d761dabb18ed22196a650c9aa17f41f6e0e9005058557bd7e6c11481cac4",
   "matchesLocalRelease": true,
   "liveBrowserChecks": [
-    "game boots",
+    "new v4 interface boots",
     "quantity switch changes purchase label",
     "settings opens and closes",
     "no captured JavaScript errors"
   ],
+  "screenshot": "verification/published-v4.png",
   "bot": "coins_flipper_bot",
-  "botConnection": "pending BotFather configuration"
+  "botConnection": "BotFather binding was not inspected in this update; existing game URL unchanged"
 }
